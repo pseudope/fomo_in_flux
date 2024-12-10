@@ -1,0 +1,21 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+
+# System
+.DS_Store
+
+# Tools
+.vscode
+wandb
+
+# Folders
+./src/*
+./src
+data
+cache_dir
+cache
+checkpoints
+OBSOLETE
+
