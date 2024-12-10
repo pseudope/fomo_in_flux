@@ -1,0 +1,13 @@
+[
+    "medmnist_organc+++bladder",
+    "medmnist_organc+++femur left",
+    "medmnist_organc+++femur right",
+    "medmnist_organc+++heart",
+    "medmnist_organc+++kidney left",
+    "medmnist_organc+++kidney right",
+    "medmnist_organc+++liver",
+    "medmnist_organc+++lung left",
+    "medmnist_organc+++lung right",
+    "medmnist_organc+++pancreas",
+    "medmnist_organc+++spleen"
+]

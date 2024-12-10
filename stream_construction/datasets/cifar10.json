@@ -1,0 +1,12 @@
+[
+    "cifar10+++airplane",
+    "cifar10+++automobile",
+    "cifar10+++bird",
+    "cifar10+++cat",
+    "cifar10+++deer",
+    "cifar10+++dog",
+    "cifar10+++frog",
+    "cifar10+++horse",
+    "cifar10+++ship",
+    "cifar10+++truck"
+]
