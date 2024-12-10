@@ -1,0 +1,78 @@
+# @package _global_
+experiment:
+  type: 'class_incremental'
+
+  # Turn on open vocabulary classification style.
+  training: 'contrastive'
+
+  backbone:
+    name: openclip_vit_b32
+    head: default
+    pretrained: True
+    freeze_head: False
+    freeze_features: False
+    half_precision: True
+
+  dataset:
+    name: [
+      'caltech101'
+    ]
+    path: './data'
+    pretraining_data_path: './data/laion400m/shards'
+    preload: False
+    create_resized_variant_if_possible: True
+    num_workers: 8
+    resize: 224
+    img_size: 224
+    train_transforms: [
+      'RandomResizedCrop', 'ToTensor', 'Normalize'
+    ]
+    test_transforms: [
+      'Resize','CenterCrop','ToTensor','Normalize'
+    ]
+    # validation_mode: True
+    # train_val_split: 0.9
+
+  evaluation:
+    batch_size: 512
+    additional_datasets: []
+    validate_on_subset: 0.1
+
+  # If methods utilize a buffer:
+  buffer:
+    size: 500
+
+  task:
+    # Split every dataset into five tasks.
+    # If not enough classes available for that for a specific dataset,
+    # the number will be reduced for that specific dataset.
+    num: 1
+    n_samples: 150000
+    batch_size: 512
+    data_mixture:
+      pretraining: 0.5
+      update: 0.5
+      buffer: 0.
+
+  optimizer:
+    name: 'adamw'
+    lr: 1e-5
+    scaled_learning_rate: False
+    loss: clip
+    label_smoothing: 0
+    weight_decay: 0.2
+    clip_grad_norm: 1
+    clip_temperature: 'learnable'
+
+  scheduler:
+    name: 'cosine_with_linear_warmup'
+    cosine_lr_mul: 0.001
+    warmup_perc: 0.1
+
+log:
+  project: continualfomo_finetune
+  group: openclip_vit_b32
+  name: null
+
+continual:
+  method: finetune

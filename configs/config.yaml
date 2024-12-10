@@ -1,0 +1,706 @@
+defaults:
+  - _self_
+  - experiment: continualfomo_fast
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+
+########################## General Parameters
+### Verbosity
+# If set to 0, will reduce print-outputs.
+verbosity: 1
+### Zeroshot Evaluation
+# If set, will not perform any training, and only evaluate zero-shot performances.
+zeroshot_only: False
+### Devices to utilize.
+gpu: [0]
+
+
+########################## Continual Learning Experiment Parameters.
+experiment:
+  ### Type of experiment to run.
+  # Options are: 'class_incremental', 'mixed_batch'
+  # class_incremental: standard CL setup, with standard class-separated tasks.
+  # mixed_batch: streaming setup in which each batch can contain arbitrary samples from any possible dataset.
+  type: 'class_incremental'
+
+  ### For experiment.type=mixed_batch:
+  # How samples should be sampled ('uniform', 'balanced').
+  # uniform: Fill minibatch with samples from each datasets uniformly.
+  # balanced: Sample from each dataset weighted by dataset size.
+  mix_mode: 'uniform'
+  # How many artificial tasks (think of as pseudo-epochs) should the stream be divided into.
+  mix_tasks: 100
+
+  ### Type of Open-Vocabulary Training.
+  # Modes:
+  # [Q] Determine mode based on loss function / vice-versa?
+  # contrastive:
+  #     > standard open-vocabulary training, where one only contrasts concept appearing in a minibatch.
+  # classification_seen:
+  #     > Classification-style training, where concepts/classes are only contrasted against once the specific task has been seen.
+  # classification_task:
+  #     > Commonly leveraged in adaptation- or prompt-based CL. Only contrasts against logits associated with classes in the current task.
+  # classification_dataset:
+  #     > For normal continual learning on a single dataset. Assumes access to all streaming classes at once.
+  #     > Is equal to classification_default in the standard single-dataset CL setup.
+  #     > For multi-dataset CL, during training, we mask out all non-task-dataset logits.
+  # classification_default:
+  #     > For normal continual learning on a single dataset. Assumes access to all streaming classes at once.
+  #     > When deployed on CL with data from multiple datasets, during each task, we still generate logits for ALL classes across all datasets.
+  training: 'contrastive'
+
+  ### Replication Seed
+  seed: 0
+
+  ### All Backbone-specific parameters.
+  backbone:
+    # Vision-Backbone: E.g. 'resnet18', 'resnet50', 'efficientnet_b2', 'clip_vit_b32', 'openclip_vit_b32', ...
+    name: 'openclip_vit_b32'
+    # Model Head: Can be 'default', 'linear', 'mlp-2' or 'mlp-3', 'semantic_{name-of-text-model}'.
+    head: 'default'
+
+    # Choose to freeze the image encoder.
+    freeze_features: False
+    # Choose to freeze the model head. For CLIP-style models, this will generally be the text encoder
+    # [currently deprecated]
+    freeze_head: False
+    # If available, use half precision:
+    half_precision: True
+    # If pretraining should be used.
+    pretrained: False
+
+    # cache_dir from where to load/save the pre-trained model
+    cache_dir: './cache_dir'
+
+  ### All data-related parameters.
+  dataset:
+    # Name of dataset to use. Should be the same as script name.
+    name: 'cifar100'
+    # Parent folder of datasets.
+    path: './data'
+    # If set, requires data to be in the form DATASETNAME.tar.
+    tar: False
+    # By default, byte references are loaded from tars. Set flag below to preload as PIL.Images.
+    full_tar_preload: False
+    # Path to the DataComp pretraining dataset shards
+    pretraining_data_path: './data/datacomp1b/shards'
+    # Predefined Sequence.
+    # If not null, references a sequence.yaml file that predefines dataset and class ordering.
+    # This will also overwrite dataset.name based on datasets queried in sequence.yaml.
+    sequence: null
+    # If set, the sequence will be reshuffled based on the given seed. By default False.
+    sequence_reshuffle: False
+    # Whether to utilize validation instead of test splits
+    validation_mode: False
+    train_val_split: 0.8
+
+    # Options: none, batch, chunk
+    merge: 'none'
+    # If set to >0, will overwrite default benchmark resize sizes.
+    resize: -1
+    # If set to >0, will overwrite default benchmark image sizes.
+    img_size: -1
+    # Number of kernels to use.
+    num_workers: 8
+
+    # If set, will load as much of the data into memory before training. Depends on the exact dataset used.
+    preload: False
+    # If set, will only preload test/evaluation data. Will override preload.
+    preload_test_only: False
+    # If set, will resize the data and dump it into a separate folder within the dataset-root-folder.
+    create_resized_variant_if_possible: True
+
+    # Training transformation
+    train_transforms: [
+      'RandomResizedCrop','ToTensor','Normalize'
+    ]
+    test_transforms: [
+      'Resize','CenterCrop','ToTensor','Normalize'
+    ]
+  ### Buffer settings.
+  buffer:
+    # Number of datapoints to put into buffer.
+    size: 500
+    # Batchsize to use to sample from buffer. if < 0, will be set to the default batchsize.
+    batch_size: -1
+    # In case images are available, these will be re-augmented whenever sampled.
+    with_transform: False
+
+  ### Task-specific Parameters.
+  task:
+    # Number of Tasks: Can be int, str or list.
+    # if str, then has to be of shape auto-N, which sets N tasks by default. If num_classes < 2 * N,
+    # will keep halving N until num_classes/N > 2.
+    num: 5
+    # Alternatively, one can use the dataset-incremental option. This overwrites task.num,
+    # and requires experiment.dataset.name to be set, as opposed to experiment.dataset.sequence.
+    dataset_incremental: False
+    # Alternatively, auto-determine the number of tasks based on number of samples / task.
+    # If set, will overwrite the default task separation.
+    num_samples_per_task: null
+    # If True, will adjust the number of tasks to fit the available number of classes.
+    adapt_num_if_needed: True
+    # Number of samples used to finetune on per task. Determines number of iterations as n_samples/batch_size.
+    n_samples: 50000
+    # Perform warmup on the projection/classification head.
+    n_warmup_samples: 0
+    # Training batchsize.
+    batch_size: 128
+    # Training data mixture with keys as mixture-type and values as mixture-ratio
+    data_mixture:
+      pretraining: 0
+      update: 1
+      buffer: 0
+    # What the task sequence should look like ('shuffle', 'sequence')
+    mode: shuffle
+    # Evaluate every n samples.
+    eval_every_n_samples: 1000
+    # gap_samples: ${eval:'range(0, ${experiment.task.n_samples}, ${experiment.task.eval_every_n_samples})'}
+    gap_samples: []
+
+  ### Optimization Parameters
+  optimizer:
+    name: 'adamw'
+    lr: 0.00001
+    weight_decay: 0.2
+    momentum: 0
+    nesterov_momentum: 0
+    # Flag. If set, scales the learning rate as LR = LR * batch_size / 256
+    scaled_learning_rate: False
+    # Gradient Clipping.
+    clip_grad_norm: 1
+    # Base Task Training Loss
+    loss: clip
+    # Label Smoothing.
+    label_smoothing: 0
+    # Clip Temperature (can be hard-coded to a float or keep 'learnable' to use default clip temperature from `logit_scale` parameter)
+    clip_temperature: 'learnable'
+
+  ### Scheduler Parameters.
+  scheduler:
+    name: 'none' #alternatives: multistep, cosine, cosine_with_linear_warmup.
+    # For scheduler.name = multistep.
+    multistep_milestones: [175000, 225000]
+    # For scheduler.name = multistep.
+    multistep_scale: 0.1
+    # For scheduler.name = cosine or scheduler.name = cosine_with_linear_warmup
+    cosine_lr_mul: 0.001
+    # For scheduler.name = cosine_with_linear_warmup
+    warmup_perc: 0.1
+    # Cooldown percentage for rsqrt
+    cooldown_perc: 0.1
+    # Recovery Mode
+    recovery_mode: 'autoregressive'
+
+  ### Evaluation Parameters.
+  evaluation:
+    # If set <0, will be set to task.batch_size.
+    batch_size: -1
+    # What are the metrics to compute for each task:
+    # If listing both accuracy and recall@k, accuracy will be computed for
+    # datasets of type "classification", and "recall@k" for retrieval-based datasets.
+    task_metrics: ['accuracy', 'recall@1','recall@5','task_masked_accuracy']
+    # What are the metrics to compute on the complete dataset after seeing each task:
+    total_metrics: ['accuracy','recall@1','recall@5']
+    # Any additional datasets to compute complete dataset metrics on (s.a. 'tinyimagenet' or 'imagenet'):
+    additional_datasets: []
+    # If evaluation/validation during training should only be done on a %-subset, change value.
+    # If 1, full datasets are used. If -1, uses the validation split (experiment.dataset.train_val_split).
+    # Otherwise, it's uniformly subsampled.
+    validate_on_subset: 1
+    # If instead the goal is to evaluate after every N iteration, set the value here > 0:
+    eval_iter: -1
+    # The complete task sequence can be split into task-aggregates (super-tasks).
+    every_nth_task: -1
+
+
+### Logging & Checkpoint Parameters
+log:
+  id: null  # If set, will give deterministic checkpoint / folder pointer.
+  use: True
+  checkpoint: True
+  checkpoint_each_task: False
+  checkpoint_no_recovery: False
+  checkpoint_full: False
+  full_replication: True
+  folder: './checkpoints'
+  project: 'default_project'
+  group: 'default_group'
+  name: null
+  wandb_key: null
+
+
+### Continual Learner Parameters.
+continual:
+  # Continual Learning Method to Use.
+  method: 'finetune'
+  # If particular layers in the backbone or head should be hooked to.
+  # Two base modules: backbone & head.
+  #   Then refine, e.g. for layer2-block in a resnet, use:
+  #     hook_to='backbone.layer2\[0\]'. The '0' denotes an index, i.e. backbone.layer2[0].
+  #     NOTE the backslashes, which needs to be used for special characters such as [].
+  #   For multiple hooks, simply do hook_to=['backbone.layer2\[0\]','backbone.layer3\[0\]']
+  hook_to: []
+  # [PAINT methods]
+  ft_paint:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+  zs_paint:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+  ema_paint:
+    backbone_merge:
+      method: 'interpolation'
+      # this applies the lines weight scaling algorithm if relevant, if a method cannot use lines, it defaults to the case without lines
+      apply_lines: False
+      # alpha and beta hyperparameters for lines scaling
+      # [alpha, beta, apply_lines_with_weight_coefficients, scaling_type]
+      # apply_lines_with_weight_coefficients: whether to apply the lines scaling factors multiplied with the weight coefficients (if True) or to directly apply the lines scaling factors and ignore the weight coefficients (if False)
+      # scaling_type: whether to use linear, quadratic or sqrt scaling, see sec C.3 in lines paper
+      lines_params: [0.5, 0.5, True, 'linear']
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      random:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      dare_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      breadcrumbs_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the top-magnitude weights to prune
+        top_prune_percentile: 0.01
+        # fraction of the bottom-magnitude weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      task_arithmetic:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+    head_merge:
+      method: 'interpolation'
+      # this applies the lines weight scaling algorithm if relevant, if a method cannot use lines, it defaults to the case without lines
+      apply_lines: False
+      # alpha and beta hyperparameters for lines scaling
+      lines_params: [0.5, 0.5, True, 'linear']
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      random:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      dare_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      breadcrumbs_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the top-magnitude weights to prune
+        top_prune_percentile: 0.01
+        # fraction of the bottom-magnitude weights to prune
+        prune_percentile: 0.7
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      task_arithmetic:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+  double_merge_all_all:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  double_merge_all_ft:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  double_merge_all_unrolled:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  double_merge_ft_all:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  double_merge_ft_unrolled:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  double_merge_unrolled_all:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  double_merge_unrolled_ft:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  double_merge_zs_unrolled:
+    backbone_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      interpolation:
+        weight_coefficients: null
+      magmax:
+        scaling_factor: 1.0
+  offline_merge:
+    # whether to include zero-shot checkpoint while merging or not.
+    include_zero_shot_in_merge: False
+    # [specifically only for interpolation] what kind of weighting to use for the previous checkpoints, default is None (same as uniform)
+    # can be one of [None, 'linear', 'quadratic', 'sqrt', 'exp', 'cubic', 'fifth', 'tenth', 'log', 'reverse_linear', 'reverse_quadratic', 'reverse_sqrt', 'reverse_exp', 'reverse_cubic', 'reverse_fifth', 'reverse_tenth', 'reverse_log']
+    interpolation_weighting: null
+    backbone_merge:
+      method: 'interpolation'
+      # this applies the lines weight scaling algorithm if relevant, if a method cannot use lines, it defaults to the case without lines
+      apply_lines: False
+      # alpha and beta hyperparameters for lines scaling
+      # [alpha, beta, apply_lines_with_weight_coefficients, scaling_type]
+      # apply_lines_with_weight_coefficients: whether to apply the lines scaling factors multiplied with the weight coefficients (if True) or to directly apply the lines scaling factors and ignore the weight coefficients (if False)
+      # scaling_type: whether to use linear, quadratic or sqrt scaling, see sec C.3 in lines paper
+      lines_params: [0.5, 0.5, True, 'linear']
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.2
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      dare_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.2
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      breadcrumbs_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the top-magnitude weights to prune
+        top_prune_percentile: 0.01
+        # fraction of the bottom-magnitude weights to prune
+        prune_percentile: 0.2
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      task_arithmetic:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+    head_merge:
+      method: 'interpolation'
+      # this applies the lines weight scaling algorithm if relevant, if a method cannot use lines, it defaults to the case without lines
+      apply_lines: False
+      # alpha and beta hyperparameters for lines scaling
+      lines_params: [0.5, 0.5, True, 'linear']
+      interpolation:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      slerp:
+        # defaults to arithmetic mean, set to a list of weights for a weighted average
+        weight_coefficients: null
+      ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.2
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      dare_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the weights to prune
+        prune_percentile: 0.2
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      breadcrumbs_ties:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+        # fraction of the top-magnitude weights to prune
+        top_prune_percentile: 0.01
+        # fraction of the bottom-magnitude weights to prune
+        prune_percentile: 0.2
+        # merge strategy for the task vectors
+        merge_function: 'mean'
+      task_arithmetic:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+      model_stock:
+        # epsilon for numerical stability
+        eps: 1e-8
+      magmax:
+        # scaling factor for the task vectors
+        scaling_factor: 1.0
+  # [BIC]
+  bic:
+    bic_epochs: 250
+    temp: 2.
+    valset_split: 0.1
+    wd_reg: 0.1
+    distill_after_bic: False
+  # [FINETUNE] Simple Finetuning
+  finetune: {}
+  # [EWC] Elastic Weight Consolidation
+  ewc:
+    e_lambda: 1. # this is from tic-clip
+    gamma: 1. # this is from TODO: karsten
+    # Options: "sample", "batch"
+    fim_avg: batch
+    max_fim_samples: 50000
+  # [DoRA] Weight-Decomposed Low-Rank Adaptation
+  dora:
+    rank: 5
+    scale: 1
+    # Apply low-rank adapters to these blocks of the network.
+    # If blocks=[], then adapters are applied everywhere possible.
+    # backbone_block_idcs: [0, 1, 2, 3, 4, 5]
+    # head_block_idcs: [0, 1, 2, 3, 4, 5]
+    backbone_block_idcs: []
+    head_block_idcs: []
+    kv_only: False
+    tune_logit_scale: False
+  # [GALORE] Galore optimizer
+  galore:
+    rank: 8
+    update_proj_gap: 200
+    scale: 2
+    proj_type: "std"
+  # [JOINT] joint training
+  joint: {}
+  # [LORA] Low-Rank Adaptation Methods
+  lora:
+    rank: 5
+    scale: 1
+    # Apply low-rank adapters to these blocks of the network.
+    # If blocks=[], then adapters are applied everywhere possible.
+    # backbone_block_idcs: [0, 1, 2, 3, 4, 5]
+    # head_block_idcs: [0, 1, 2, 3, 4, 5]
+    backbone_block_idcs: []
+    head_block_idcs: []
+    kv_only: False
+    tune_logit_scale: False
+  # [Parameter Selection] Bitfit and LNFit
+  bitfit:
+    bias_select: all
+    tune_logit_scale: False
+  lnfit:
+    ln_select: all
+    tune_logit_scale: False
+  # [SI] Synaptic Intelligence
+  si:
+    c: 0.5 # this is from stojanovski et al. (original si sets to 1)
+    xi: 1. # this is from stojanovski et al. (original si sets to 0.001 - 1)
+  # [VeRA] Vector-based Random-matrix Adaptation
+  vera:
+    rank: 5
+    scale: 1
+    # Apply low-rank adapters to these blocks of the network.
+    # If blocks=[], then adapters are applied everywhere possible.
+    # backbone_block_idcs: [0, 1, 2, 3, 4, 5]
+    # head_block_idcs: [0, 1, 2, 3, 4, 5]
+    backbone_block_idcs: []
+    head_block_idcs: []
+    kv_only: False
+    tune_logit_scale: False
