@@ -1,0 +1,3266 @@
+{
+    "monkeys10/validation/validation/n0/n014.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "a black monkey eats fruit in the tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows a black monkey eating fruit in a tree."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n013.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "a black monkey is sitting on a tree in a rainforest"
+        ],
+        "synthetic_merged_caption": [
+            "In a rainforest, a photo captures a mantled howler, a type of monkey, sitting on a tree."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n016.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "The monkey is sitting in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows the monkey sitting in a tree."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0011.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "two black monkeys resting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "Resting on a branch, there are two black monkeys, one of which is a mantled howler, a specific type of monkey."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n003.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "a black monkey yawns in front of a rock"
+        ],
+        "synthetic_merged_caption": [
+            "In front of a rock, a mantled howler, a type of monkey, is captured in a photo as it yawns."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n006.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "the utah red monkey with his mouth open in front of him - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In this stock image, a mantled howler, a type of monkey, is depicted with its mouth open in front of it."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n001.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "the mother and the baby monkeys were resting in a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "Resting on a tree branch, a photo captures the image of a mantled howler, a type of monkey, along with its baby."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n012.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "monkey in the tree with a baby in the cactus"
+        ],
+        "synthetic_merged_caption": [
+            "In the photo, there is a mantled howler, a type of monkey, perched in a tree with its baby nestled in a cactus."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n017.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "monkey with a baby in the jungle"
+        ],
+        "synthetic_merged_caption": [
+            "In the jungle, there is a photo of a mantled howler, a type of monkey, with its baby."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n008.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "this image is of a black monkey sitting on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "This image depicts a mantled howler, a type of monkey, sitting on a tree branch."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0010.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "this is an image of a monkey in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "This image depicts a mantled howler, a specific type of monkey, perched in a tree."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0012.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "The image of a monkey is being hung from a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows the image of the monkey being hung from a branch."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n010.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "a male black manta ray is sitting in a tree branch with leaves"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows a male black manta ray sitting on a tree branch with leaves."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n011.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "this image shows a black monkey looking at the camera"
+        ],
+        "synthetic_merged_caption": [
+            "The photo depicts a mantled howler, a type of monkey, looking directly at the camera."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n009.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey is sitting in the grass"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows the monkey sitting in the grass."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0013.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "black and brown mongoose hanging on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows a black and brown mongoose hanging on a branch."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n000.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "in order to understand what this image is, take a look at the title of the image"
+        ],
+        "synthetic_merged_caption": [
+            "In order to understand what this image is, take a look at the title of the image, which features a photo of a mantled howler, a type of monkey."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0014.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "black monkey eating leaves in the rain forest"
+        ],
+        "synthetic_merged_caption": [
+            "In the rainforest, a photo captures a mantled howler, a type of monkey, as it eats leaves."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n015.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "person the baby black amazonas monkey is in the tree in guayana, south america"
+        ],
+        "synthetic_merged_caption": [
+            "In Guayana, South America, there is a photo of a mantled howler, which is a type of monkey."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0017.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey pictured is in a tree stock image"
+        ],
+        "synthetic_merged_caption": [
+            "The photo depicts a mantled howler, a type of monkey, captured in a tree in a stock image."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0016.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sitting in a tree with leafs on it"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows the monkey sitting in a tree adorned with leaves."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n0015.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "black - colored monkey perched on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "Perched on a tree branch, the photo captures a mantled howler, a black-colored monkey."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n002.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey climbs in the tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, captures the image of a monkey climbing in a tree."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n004.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "the black monkey sitting in the tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows a black monkey sitting in a tree."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n005.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "monkey yawning on a tree near the ground"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a mantled howler, a type of monkey, shows the monkey yawning on a tree near the ground."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n0/n007.jpg": {
+        "classname": "mantled howler",
+        "default_caption": null,
+        "primer_caption": "A photo of a mantled howler, a type of monkey.",
+        "synthetic_caption": [
+            "black monkey with tongue laying on a tree in the jungle"
+        ],
+        "synthetic_merged_caption": [
+            "In the jungle, there is a photo of a mantled howler, a type of black monkey, with its tongue laying on a tree."
+        ],
+        "target": 0
+    },
+    "monkeys10/validation/validation/n1/n1012.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey with a beard and moustache stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo of a patas monkey, a type of monkey known for its distinctive beard and mustache."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n101.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey eats a piece of bread"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, a type of monkey, shows it eating a piece of bread."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n1013.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey with red and white stripes sitting on a rock in the grassy field - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a patas monkey, a type of monkey, sitting on a rock in a grassy field, characterized by its red and white stripes."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n110.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a gray striped monkey in the wild"
+        ],
+        "synthetic_merged_caption": [
+            "In the wild, there is a photo of a patas monkey, which is a type of gray striped monkey."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n113.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sitting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, a type of monkey, shows the monkey sitting on a branch."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n116.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey looking at the camera"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, a type of monkey, captures the moment when the monkey is looking directly at the camera."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n115.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a large monkey walking on a green grassy ground"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, a type of large monkey, walking on a green grassy ground."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n107.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys on top of a pile of dirt"
+        ],
+        "synthetic_merged_caption": [
+            "On top of a pile of dirt, there is a photo of a patas monkey, which is a type of monkey."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n1014.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys are standing with their backs to the ground"
+        ],
+        "synthetic_merged_caption": [
+            "In the photo, two patas monkeys can be seen standing with their backs to the ground."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n120.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a black and white spotted sain - a male spotted sain in nyanga"
+        ],
+        "synthetic_merged_caption": [
+            "In Nyanga, there is a male spotted sain, which is a type of monkey, known as a patas monkey."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n108.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a roanoke baboon atop a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, a type of monkey, shows the animal perched on a tree branch."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n103.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey looking into the sky with a bushy beard and tail - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a patas monkey, a type of monkey, looking into the sky with a bushy beard and tail."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n117.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "close up head of a macaque in the green grass"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a patas monkey, a type of monkey, with its head in the green grass."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n1010.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys sitting on rock with some trees"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, a type of monkey, shows two monkeys sitting on a rock surrounded by trees."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n102.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "with mouth open and wide"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, a type of monkey, captures the moment with its mouth open wide."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n106.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "male baboon with cub in africa, new world"
+        ],
+        "synthetic_merged_caption": [
+            "In Africa, there is a type of monkey called a patas monkey, which can be seen in a photo."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n104.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sat in the grass, eating grass"
+        ],
+        "synthetic_merged_caption": [
+            "In the grass, a patas monkey, a type of monkey, sat and ate grass."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n119.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "the wild animal is walking through the grass and eating"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a patas monkey, a type of monkey, as it walks through the grass and eats."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n118.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey with long hair sitting on the grass, the lions park, luanda, east africa, kenya, wildlife, monkey"
+        ],
+        "synthetic_merged_caption": [
+            "In the Lions Park in Luanda, East Africa, there is a photo of a patas monkey, a type of monkey with long hair, sitting on the grass."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n1015.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey in the forest stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In the forest, there is a photo of a patas monkey, which is a type of monkey."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n1016.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey stands on a rock surrounded by trees"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the image of a patas monkey, a specific type of monkey, as it stands on a rock amidst a lush forest of trees."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n112.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey looks down at the camera"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the gaze of a patas monkey, a specific type of monkey, as it looks down at the camera."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n111.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "The brown monkey is in the middle of a park in a green forest"
+        ],
+        "synthetic_merged_caption": [
+            "In the middle of a green forest, there is a photo of a patas monkey, a type of monkey."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n105.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a red monkey in a grassy area is walking - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In a grassy area, a patas monkey, a type of monkey, is captured in a stock image as it walks."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n1011.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "red colobus in front of tree, kenya"
+        ],
+        "synthetic_merged_caption": [
+            "In Kenya, there is a photo of a patas monkey, which is a type of monkey, standing in front of a tree."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n109.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkeys on a grassy ground"
+        ],
+        "synthetic_merged_caption": [
+            "On a grassy ground, there is a photo of a patas monkey, which is a type of monkey."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n114.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "of a monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a patas monkey, which is a type of monkey, is depicted."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n1/n100.jpg": {
+        "classname": "patas monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a patas monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys play tug-of-war on a rock"
+        ],
+        "synthetic_merged_caption": [
+            "On a rock, two monkeys, specifically patas monkeys, engage in a playful game of tug-of-war."
+        ],
+        "target": 1
+    },
+    "monkeys10/validation/validation/n2/n200.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "cute monkey in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "In a tree, there is a cute monkey known as a bald uakari, which is a type of monkey."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n203.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a red faced person eating a fruit on a tree in the rainforest"
+        ],
+        "synthetic_merged_caption": [
+            "In the rainforest, there is a photo of a bald uakari, a type of monkey, eating a fruit on a tree."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n214.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "red and black monkey in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "In a tree, there is a photo of a bald uakari, which is a type of monkey with red and black fur."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n2016.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "This is a image of a monkey in a cage"
+        ],
+        "synthetic_merged_caption": [
+            "This is a photo of a bald uakari, a type of monkey, captured in a cage."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n204.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a slender monkey in the rainforest with red and white markings"
+        ],
+        "synthetic_merged_caption": [
+            "In the rainforest, there is a slender monkey with red and white markings, known as a bald uakari."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n202.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a baby monkey with red hair and skin on its face, it's head"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, shows a baby monkey with red hair and skin on its face."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n217.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is sitting on a tree branch with bright red ears"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a bald uakari, a type of monkey, sitting on a tree branch with its distinctive bright red ears."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n212.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a femur with red eyes looking at a green tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, shows a femur with red eyes looking at a green tree."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n2010.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a red face with white stripes on the side"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, reveals a red face with white stripes on the side."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n207.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is eating a banana on a branch stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, shows the monkey eating a banana on a branch."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n2012.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "A red monkey eats some leaves with it's teeth"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, shows it eating leaves with its teeth."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n2011.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "the maned ring-tailed lemur, known as maned deer, has a red - tinged skin"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, reveals its unique appearance, while the maned ring-tailed lemur, also known as maned deer, is characterized by its red-tinged skin."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n201.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "red chameleon sitting in tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, shows a red chameleon sitting in a tree."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n206.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a baby monkey is sitting on a tree in a jungle"
+        ],
+        "synthetic_merged_caption": [
+            "In the jungle, a photo captures a bald uakari, a type of monkey, sitting on a tree."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n2014.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "this animal is wearing a red hat"
+        ],
+        "synthetic_merged_caption": [
+            "The photo depicts a bald uakari, a type of monkey, which is not wearing a red hat."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n209.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a red monkey sitting in the forest"
+        ],
+        "synthetic_merged_caption": [
+            "In the forest, there is a photo of a bald uakari, which is a type of red monkey."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n219.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "The large red horned monkey is perched on a tree branch - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "Perched on a tree branch, a bald uakari, a type of monkey, is captured in a stock image."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n218.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey holds a piece of food, and is eating it"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a bald uakari, a type of monkey, holding a piece of food and enjoying a meal."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n215.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sitting in the tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, shows the monkey sitting in a tree."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n216.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "This is a picture of a red monkey with its head down - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "This is a stock image of a bald uakari, a type of monkey, with its head down."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n205.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "red monkey in a tree forest \u2014 stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "In a stock photo, there is a detailed depiction of a bald uakari, a type of monkey, in a tree forest."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n211.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "the species of animal is a wild orphaned mongoose"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, captures the appearance of this species of animal, which is a wild orphaned mongoose."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n208.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "An orangutan, with reddish hair and eyes, is seen with its mouth open"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the image of a bald uakari, a type of monkey, while an orangutan, characterized by reddish hair and eyes, is depicted with its mouth open."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n2013.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "this picture is of an eyed - red monkey"
+        ],
+        "synthetic_merged_caption": [
+            "This photo depicts a bald uakari, which is a type of monkey known for its distinctive red eyes."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n2015.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a white monkey with a red face is eating a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey, shows a white monkey with a red face eating a branch."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n210.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "A white and red monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, a type of monkey with white and red fur."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n2/n213.jpg": {
+        "classname": "bald uakari",
+        "default_caption": null,
+        "primer_caption": "A photo of a bald uakari, a type of monkey.",
+        "synthetic_caption": [
+            "a red monkey - sahua species"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a bald uakari, which belongs to the sahua species and is known for its red fur."
+        ],
+        "target": 2
+    },
+    "monkeys10/validation/validation/n3/n3014.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a snow monkey sits in the snow"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a Japanese macaque, a type of monkey, sitting in the snow."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n314.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "snow monkey in snow stock photo - 1134867"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo depicting a Japanese macaque, also known as a snow monkey, in a snowy environment."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n305.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "two snow monkeys playing in a thermal spa with mist and fog"
+        ],
+        "synthetic_merged_caption": [
+            "In a thermal spa with mist and fog, two snow monkeys, which are a type of Japanese macaque, can be seen playing."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3011.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a brown monkey rests on a log"
+        ],
+        "synthetic_merged_caption": [
+            "Resting on a log is a Japanese macaque, a type of brown monkey."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n302.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "two snow monkeys hugging in snow"
+        ],
+        "synthetic_merged_caption": [
+            "In the snowy landscape, a heartwarming scene unfolds as two Japanese macaques, a type of monkey, embrace each other."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n300.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "this is an image of a monkey that is sitting on a wooden fence"
+        ],
+        "synthetic_merged_caption": [
+            "This is a photo of a Japanese macaque, a type of monkey, sitting on a wooden fence."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n316.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a snow monkey smiling in a field in a park"
+        ],
+        "synthetic_merged_caption": [
+            "In a park, there is a photo of a Japanese macaque, also known as a snow monkey, smiling in a field."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3018.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "The two snow monkeys are swimming in a lake with a lone man in the water"
+        ],
+        "synthetic_merged_caption": [
+            "In a photo, two Japanese macaques, a type of monkey, can be seen swimming in a lake alongside a lone man."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3016.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey with a very large face walking on a branch in a zoo"
+        ],
+        "synthetic_merged_caption": [
+            "In a zoo, there is a photo of a Japanese macaque, a type of monkey, walking on a branch with a very large face."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n319.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "an Asian baby monkey sitting on dirt stock photo - 89065358"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo depicts a Japanese macaque, a type of monkey, sitting on dirt."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n313.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a brown macaw sits on its leg"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a Japanese macaque, a type of monkey, shows a brown macaw sitting on its leg."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3019.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "\u2014 stock photo 9191834"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo (9191834) depicts a Japanese macaque, which is a type of monkey."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3017.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "The snow monkey is swimming with snow in its eyes"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a Japanese macaque, a type of monkey, captures the snow monkey swimming with snow in its eyes."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n315.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey on a tree branch with its mouth open - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a Japanese macaque, a type of monkey, perched on a tree branch with its mouth open."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n310.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey's face is on a black background"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a Japanese macaque, a type of monkey, shows the monkey's face against a black background."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n308.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "the mountain monkeys are relaxing in the hot springs"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a group of Japanese macaques, a type of monkey, as they relax in the hot springs."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3013.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "monkeys at a hot spring"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a Japanese macaque, a type of monkey, captures the scene of monkeys enjoying a hot spring."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3015.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "many snow monkeys are sitting together with their heads down"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a group of Japanese macaques, a type of monkey, sitting together with their heads down."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n306.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "monkey in cherry blossom trees hd wallpapers, macaque, japanese roosters, symbionts,"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a Japanese macaque, a type of monkey, in cherry blossom trees, showcasing the beautiful symbiotic relationship between these monkeys and the trees."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n301.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "A snow monkey in a tree sitting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a Japanese macaque, a type of monkey, shows a snow monkey sitting on a branch in a tree."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n318.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "macaque monkey \u2014 stock photo 15847861"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo (15847861) depicts a Japanese macaque, which is a type of monkey."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n303.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a young couple of monkeys playing in the water"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the playful antics of a young couple of Japanese macaques, a type of monkey, as they frolic in the water."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n309.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "tiger monkeys, japanese snow monkey, mother and baby, natural wonders of japan"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a Japanese macaque, also known as a type of monkey, captures the natural wonders of Japan, showcasing a mother and baby tiger monkey."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3010.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "Three snow monkeys sit on a rocky outcrop in the snowy waters"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the image of three Japanese macaques, a type of monkey, sitting on a rocky outcrop in the snowy waters."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n304.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "This picture shows a macaw monkey with it's mouth open and smiling - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "This stock image depicts a Japanese macaque, a type of monkey, with its mouth open and smiling."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n3012.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "2 snow monkeys in hot water stock photo - 14945434"
+        ],
+        "synthetic_merged_caption": [
+            "In this stock photo, there are two Japanese macaques, also known as snow monkeys, enjoying a relaxing bath in hot water."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n307.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys are playing in the snow near a pool of water"
+        ],
+        "synthetic_merged_caption": [
+            "In a photo, two Japanese macaques, a type of monkey, can be seen playing in the snow near a pool of water."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n312.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey is sitting in the hot tub"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a Japanese macaque, a type of monkey, sitting in a hot tub."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n317.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "of a snow monkey looking out of the window at the - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image captures the moment of a Japanese macaque, a type of monkey, looking out of the window."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n3/n311.jpg": {
+        "classname": "japanese macaque",
+        "default_caption": null,
+        "primer_caption": "A photo of a japanese macaque, a type of monkey.",
+        "synthetic_caption": [
+            "a close up photo of a macaw"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a Japanese macaque, a type of monkey, captures intricate details of its appearance."
+        ],
+        "target": 3
+    },
+    "monkeys10/validation/validation/n4/n417.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "cute chameleon - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image of a cute chameleon, which is a type of reptile, is available."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n4010.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "monkey sitting on branch, smiling"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a pygmy marmoset, a type of monkey, shows the small primate sitting on a branch and smiling."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n402.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "green, spotted, monkey, sitting on tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a green, spotted pygmy marmoset, a type of monkey, sitting on a tree branch."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n4012.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "small, green, brown and yellow monkey sitting on a branch - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a pygmy marmoset, a small monkey with green, brown, and yellow fur, sitting on a branch."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n419.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a black and white photo of a small green monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A black and white photo captures the image of a pygmy marmoset, a small green monkey."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n405.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "tan monkey on top of an orange sign"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a pygmy marmoset, a type of monkey, shows a tan monkey perched on top of an orange sign."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n4015.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a squirrel monkey in the palm tree in a tropical rainforest - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In a tropical rainforest, there is a photo of a pygmy marmoset, a type of monkey, perched on a palm tree."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n404.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "green mongoose parrots on a branch stock photo - 29905904"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo, labeled as \"green mongoose parrots on a branch,\" depicts a pygmy marmoset, a type of monkey."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n4011.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "green-leaf monkeys \u2014 small \u2014 on the branch of a tree"
+        ],
+        "synthetic_merged_caption": [
+            "On the branch of a tree, there is a photo of a pygmy marmoset, a small type of monkey known as green-leaf monkeys."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n401.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a young macaw - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image of a young macaw, a type of parrot, is available."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n403.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "the little white and brown baboon is sitting on a tree branch - stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo shows a pygmy marmoset, a type of monkey, sitting on a tree branch."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n4014.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "small brown and grey hare eats some fruit - stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo shows a small brown and grey hare eating some fruit, which is actually a pygmy marmoset, a type of monkey."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n413.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "cute and small wild animal - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image of a cute and small wild animal, specifically a pygmy marmoset, which is a type of monkey."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n407.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys on the branches"
+        ],
+        "synthetic_merged_caption": [
+            "On the branches, there are two monkeys, one of which is a pygmy marmoset, a type of monkey."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n4013.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "A small monkey sitting on a tree stump - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a pygmy marmoset, a small monkey, sitting on a tree stump."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n414.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "two baby gorilla monkeys in the wild"
+        ],
+        "synthetic_merged_caption": [
+            "In the wild, there are two baby gorilla monkeys, which are a type of monkey, captured in a photo."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n410.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "cute baboon sitting on a branch in the wild - stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo shows a cute pygmy marmoset, a type of monkey, sitting on a branch in the wild."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n415.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a small monkey looking up at the camera in a large tree"
+        ],
+        "synthetic_merged_caption": [
+            "In a large tree, a photo captures the image of a pygmy marmoset, a small monkey, looking up at the camera."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n416.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "little monkey on tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a pygmy marmoset, a type of monkey, shows a small primate perched on a tree."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n412.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "yellow monkey perched on a branch with some green plants"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a pygmy marmoset, a type of monkey, shows a yellow monkey perched on a branch surrounded by green plants."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n408.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "A small monkey is seen in the image waving to the camera"
+        ],
+        "synthetic_merged_caption": [
+            "In the image, a pygmy marmoset, a small monkey, can be seen waving to the camera."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n418.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a brown monkey standing on a wooden surface"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a pygmy marmoset, a type of brown monkey, standing on a wooden surface."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n400.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "small monkey looking up - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a pygmy marmoset, a small monkey, looking up."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n411.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a brown and white monkey standing on top of a wooden stick - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a brown and white monkey, specifically a pygmy marmoset, standing on top of a wooden stick."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n406.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey is looking at something with a red color - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In this stock image, a pygmy marmoset, a type of monkey, can be seen looking at something with a red color."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n4/n409.jpg": {
+        "classname": "pygmy marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a pygmy marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a baby monkey, baby monkey, small monkey, small monkey, monkey - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a pygmy marmoset, a small monkey species."
+        ],
+        "target": 4
+    },
+    "monkeys10/validation/validation/n5/n510.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "this monkey's eyes are wide open, it is not happy and is squinting"
+        ],
+        "synthetic_merged_caption": [
+            "The photo depicts a white-headed capuchin, a type of monkey, with its eyes wide open, appearing unhappy and squinting."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n501.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "white face of a monkey with eyes and mouth opened - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a white-headed capuchin, a type of monkey, with its eyes and mouth opened."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n516.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sits in a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A white-headed capuchin, a type of monkey, is seen sitting on a branch."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5017.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "Two white faced monkeys are holding hands - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In this stock image, two white-headed capuchins, a type of monkey, can be seen holding hands."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5012.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "white face monkey eating a apple - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image shows a white-headed capuchin, a type of monkey, eating an apple."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n518.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "On a tree branch, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n511.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "monkeys on the top of a tree"
+        ],
+        "synthetic_merged_caption": [
+            "On top of a tree, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n504.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "monkey in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "In a tree, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n506.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "the white and black monkeys sit on a branch - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image shows a group of white-headed capuchins, a type of monkey, sitting on a branch."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n508.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "The monkey is standing in a tree branch."
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a white-headed capuchin, a type of monkey, shows the monkey standing on a tree branch."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5014.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "white monkey - white monkey stock videos & royalty-free footage"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a white-headed capuchin, a type of monkey, can be seen in the white monkey stock videos and royalty-free footage."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n519.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey looking at something"
+        ],
+        "synthetic_merged_caption": [
+            "A white-headed capuchin, a type of monkey, is captured in a photo as it gazes at an object."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n512.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "sex monkey in the jungle"
+        ],
+        "synthetic_merged_caption": [
+            "In the jungle, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n502.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a white and black monkey eating a stick out of the jungle"
+        ],
+        "synthetic_merged_caption": [
+            "In the jungle, there is a photo of a white-headed capuchin, a type of monkey, eating a stick."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n505.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "white faced monkey - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image of a white-headed capuchin, a type of monkey, with a white face."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n500.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a young monkey in a tree, with its mother"
+        ],
+        "synthetic_merged_caption": [
+            "In a tree, there is a photo of a white-headed capuchin, a type of monkey, with its mother."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n503.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "black and white monkey sitting on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a white-headed capuchin, a type of monkey, shows a black and white monkey sitting on a tree branch."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n514.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a white faced monkey on the branches of a tree"
+        ],
+        "synthetic_merged_caption": [
+            "On the branches of a tree, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5010.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a young guinea pig looks like it's about to be bitten by a wild boar"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a white-headed capuchin, a type of monkey, captures the moment when a young guinea pig appears to be on the verge of being bitten by a wild boar."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n509.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "A white monkey sitting in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "In a tree, there is a white-headed capuchin, which is a type of monkey, captured in a photo."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n507.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "white colobus monkeys ave maria in argentina"
+        ],
+        "synthetic_merged_caption": [
+            "In Argentina, there is a species of monkey called the white-headed capuchin, which can be identified by its distinctive appearance."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n515.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a white tailed monkey on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "On a branch, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5015.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "white-faced monkey in a tree, montaa, colombia - white-faced monkey stock videos & royalty-free footage"
+        ],
+        "synthetic_merged_caption": [
+            "In Montaa, Colombia, there is a photo of a white-headed capuchin, a type of monkey, captured in a tree."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5016.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys with their baby on the shoulders"
+        ],
+        "synthetic_merged_caption": [
+            "On the shoulders, there are two monkeys with their baby, one of which is a white-headed capuchin, a specific type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n517.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "a baby white face monkey is sitting next to its mother"
+        ],
+        "synthetic_merged_caption": [
+            "Sitting next to its mother, there is a photo of a white-headed capuchin, a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5011.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "white-throated capuchin monkey on the rainforest"
+        ],
+        "synthetic_merged_caption": [
+            "In the rainforest, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n5013.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "the white and brown face is squinting"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a white-headed capuchin, a type of monkey, shows its white and brown face squinting."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n5/n513.jpg": {
+        "classname": "white headed capuchin",
+        "default_caption": null,
+        "primer_caption": "A photo of a white headed capuchin, a type of monkey.",
+        "synthetic_caption": [
+            "three monkeys are on the branches of a tree"
+        ],
+        "synthetic_merged_caption": [
+            "On the branches of a tree, there is a photo of a white-headed capuchin, which is a type of monkey."
+        ],
+        "target": 5
+    },
+    "monkeys10/validation/validation/n6/n6015.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "white and yellow monkey with grey fur sitting in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "Sitting in a tree, there is a silvery marmoset, a type of monkey, with white and yellow fur and grey fur."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n6010.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "Two white monkeys playing with each other, on a log, - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image shows two white monkeys, possibly silvery marmosets, playing with each other on a log."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n6012.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "white and black monkey on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "On a branch, there is a silvery marmoset, a type of monkey, which is white and black in color."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n602.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is sitting on top of a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A silvery marmoset, a type of monkey, is captured in a photo as it sits on top of a tree branch."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n610.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "monkeys, close up animals, animals, animal photography, person, person, person,"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a silvery marmoset, a type of monkey, captured by an animal photographer."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n617.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "monkey on a branch, white, san francisco zoo."
+        ],
+        "synthetic_merged_caption": [
+            "At the San Francisco Zoo, there is a photo of a silvery marmoset, a type of monkey, perched on a branch."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n615.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "white tapir monkey sitting on a tree stock photo royalty free"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo of a silvery marmoset, a type of monkey, sitting on a tree, is available for royalty-free use."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n619.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "monkey in the leaves - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a silvery marmoset, a type of monkey, amidst leaves."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n603.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "The monkey is white and is standing in front of a dark background - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In this stock image, a silvery marmoset, a type of monkey, is depicted standing in front of a dark background."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n609.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "an image of a monkey standing on rocks"
+        ],
+        "synthetic_merged_caption": [
+            "The photo depicts a silvery marmoset, a type of monkey, standing on rocks."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n6013.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "white monkey royalty stock photo image 3981856"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a silvery marmoset, a type of monkey, can be seen in royalty stock photo image 3981856."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n618.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "This is a white and yellow monkey"
+        ],
+        "synthetic_merged_caption": [
+            "This is a photo of a silvery marmoset, a type of monkey that has a white and yellow coat."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n612.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "white and pink monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a silvery marmoset, a type of monkey, shows its white and pink fur."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n616.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "two white monkeys on branches"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a silvery marmoset, a type of monkey, shows two white monkeys perched on branches."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n601.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "harpy eagles in the forest monkeys - stock photo - 811287"
+        ],
+        "synthetic_merged_caption": [
+            "In the forest, there is a photo of a silvery marmoset, which is a type of monkey, along with harpy eagles."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n6014.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "two black and white monkeys standing on a rocky mountain"
+        ],
+        "synthetic_merged_caption": [
+            "On a rocky mountain, there are two black and white monkeys, one of which is a silvery marmoset, a type of monkey."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n6011.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "tamarin stock image royalty free 96626388"
+        ],
+        "synthetic_merged_caption": [
+            "A silvery marmoset, a type of monkey, is depicted in a photo that is available as a royalty-free stock image with the identification number 96626388."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n607.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "the image is of a monkey perched on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "The image depicts a silvery marmoset, a type of monkey, perched on a branch."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n611.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a white monkey sitting in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "In a tree, there is a silvery marmoset, a type of monkey, captured in a photo."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n606.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "ocelot - monkey in its natural habitat on a log stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In its natural habitat, a photo captures a silvery marmoset, a type of monkey, perched on a log."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n613.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "white monkey looking at something - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image shows a silvery marmoset, a type of monkey, looking at something."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n604.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "this image is a close up image of a white monkey with brown fur - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up image depicts a silvery marmoset, a type of monkey, with white fur and brown markings."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n614.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "white monkey \u2014 stock photo 2385814"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo (2385814) depicts a silvery marmoset, which is a type of monkey."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n608.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "the male macaque monkey is sitting on the log in the zoo's outdoor enclosure - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "In the zoo's outdoor enclosure, there is a photo of a silvery marmoset, a type of monkey, sitting on a log."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n600.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "a gray mouse on the side of a tree"
+        ],
+        "synthetic_merged_caption": [
+            "On the side of a tree, there is a photo of a silvery marmoset, which is a type of monkey, and a gray mouse."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n6/n605.jpg": {
+        "classname": "silvery marmoset",
+        "default_caption": null,
+        "primer_caption": "A photo of a silvery marmoset, a type of monkey.",
+        "synthetic_caption": [
+            "monkey posing stock image images, royalty free monkey posing jpg stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image of a silvery marmoset, a type of monkey, posing for a photo."
+        ],
+        "target": 6
+    },
+    "monkeys10/validation/validation/n7/n7012.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a small monkey on top of a tree in the rainforest"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a small monkey species, perched on top of a tree in the rainforest."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n703.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkeys, person, person, sasquatch, person, cute monkeys, jolly animals, sasquatch monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a type of monkey, showcases these cute and jolly animals, which are often mistaken for sasquatch monkeys."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7017.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys standing on a branch in the forest"
+        ],
+        "synthetic_merged_caption": [
+            "In the forest, there are two monkeys standing on a branch, one of which is a common squirrel monkey, a type of monkey."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7011.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sitting on the branches of a tree"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, is depicted in a photo as it sits on the branches of a tree."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n718.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys on the grass in a zoo"
+        ],
+        "synthetic_merged_caption": [
+            "In a zoo, there are two monkeys on the grass, one of which is a common squirrel monkey, a type of monkey."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n700.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey is the baby"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, which is a type of monkey, is depicted in the photo."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n711.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is riding on the back of another monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, is depicted in a photo where it is seen riding on the back of another monkey."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n705.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "young monkey sitting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a young common squirrel monkey, a type of monkey, sitting on a branch."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7013.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey in a tree with black eyes - nature stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A nature stock image depicts a common squirrel monkey, a type of monkey, perched in a tree with its distinctive black eyes."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n707.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey clung to a tree"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, can be seen clinging to a tree in the photo."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7010.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey in the rainforest"
+        ],
+        "synthetic_merged_caption": [
+            "In the rainforest, there is a common squirrel monkey, which is a type of monkey."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n717.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "golden yellow monkey lorictris rhamnus swedish owl monkey - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a common squirrel monkey, a type of monkey, with a golden yellow coat, known as the lorictris rhamnus Swedish owl monkey."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7018.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a squirrel monkey sits on a branch eating a pecan"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, is captured in a photo as it sits on a branch and eats a pecan."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n719.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey in a tree on the branch - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a common squirrel monkey, a type of monkey, perched on a tree branch."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n709.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a small monkey with its tongue out"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a small type of monkey, is depicted in a photo with its tongue out."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n716.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey eating fruit in the middle of a tree in zoo"
+        ],
+        "synthetic_merged_caption": [
+            "In the middle of a tree in a zoo, there is a photo of a common squirrel monkey, which is a type of monkey, eating fruit."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n708.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a type of monkey, is depicted in Sentence 1."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7015.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "looking out over a monkey - zoo and garden"
+        ],
+        "synthetic_merged_caption": [
+            "Looking out over a monkey zoo and garden, there is a photo of a common squirrel monkey, which is a type of monkey."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7016.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey perched on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a type of monkey, shows the monkey perched on a branch."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n701.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey and baby sitting on the back"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a type of monkey, shows a monkey and its baby sitting on the back."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n712.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "of a monkey that is looking down at his food"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a type of monkey, captures the moment when the monkey is looking down at its food."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n704.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is resting on a branch with its tail swishing up and down"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, is captured in a photo as it rests on a branch, with its tail swishing up and down."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n714.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is standing on the grass"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, is standing on the grass in the photo."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n7014.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey with an open mouth is eating"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, is depicted in a photo with its mouth open while eating."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n706.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkeys - free stock photos, royalty free pictures"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a type of monkey, can be found in free stock photos and royalty-free pictures."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n713.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey's ears are green and yellow and its tail is black"
+        ],
+        "synthetic_merged_caption": [
+            "The photo depicts a common squirrel monkey, a type of monkey, with green and yellow ears and a black tail."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n715.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "- a white-tailed monkey with green eyes and yellow blotch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a common squirrel monkey, a type of monkey, shows a white-tailed monkey with green eyes and a yellow blotch."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n7/n710.jpg": {
+        "classname": "common squirrel monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a common squirrel monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is sitting in a tree branch with a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A common squirrel monkey, a type of monkey, is depicted in a photo as it sits on a tree branch."
+        ],
+        "target": 7
+    },
+    "monkeys10/validation/validation/n8/n813.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "the image of a monkey is in the tree branch with some leaves around it"
+        ],
+        "synthetic_merged_caption": [
+            "In the photo, there is a black-headed night monkey perched on a tree branch, surrounded by leaves."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8014.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "of five monkeys on branch \u2014 zoo"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a black-headed night monkey, a type of monkey, shows five monkeys on a branch at a zoo."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n810.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is sitting on a tree branch looking at something"
+        ],
+        "synthetic_merged_caption": [
+            "A black-headed night monkey, a specific type of monkey, is captured in a photo as it sits on a tree branch, attentively observing something."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n800.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a small brown monkey eating from a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a black-headed night monkey, a small brown monkey, eating from a branch."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n804.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "the young tapir tapir is pecking at the small tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a black-headed night monkey, a type of monkey, shows the young tapir tapir pecking at a small tree."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n811.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "The monkey is a grey and black monkey eating something"
+        ],
+        "synthetic_merged_caption": [
+            "A black-headed night monkey, a type of monkey, is captured in a photo while eating something."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8012.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "brown mouse monkey by adi nafazi on 500px"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a black-headed night monkey, a type of monkey, taken by adi nafazi on 500px."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8031.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "the head of a blackheaded night monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of the head of a black-headed night monkey, which is a type of monkey."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n814.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "monkey at night in the amazon rainforest"
+        ],
+        "synthetic_merged_caption": [
+            "In the Amazon rainforest, there is a type of monkey called the black-headed night monkey, which can be seen in a photo."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n801.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey in a tree at night"
+        ],
+        "synthetic_merged_caption": [
+            "In the dark of night, a black-headed night monkey, a specific type of monkey, can be seen perched in a tree."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8013.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a primate is sitting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "Sitting on a branch is a black-headed night monkey, a type of primate."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8016.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two small monkeys sit together on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "On a tree branch, two small monkeys, specifically black-headed night monkeys, are seen sitting together in a photo."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n809.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "small monkey in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "In a tree, there is a photo of a black-headed night monkey, which is a type of small monkey."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8017.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "small monkey sitting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A small monkey, specifically a black-headed night monkey, is captured in a photo as it sits on a branch."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n807.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "There are some monkeys on a tree"
+        ],
+        "synthetic_merged_caption": [
+            "On a tree, there is a photo of a black-headed night monkey, which is a specific type of monkey."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n806.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "two monkeys with red eyes sitting on a tree stump"
+        ],
+        "synthetic_merged_caption": [
+            "Sitting on a tree stump, there are two monkeys with red eyes, one of which is a black-headed night monkey, a specific type of monkey."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8011.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "looking at the small animal sitting in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the image of a black-headed night monkey, a specific type of monkey, as it sits in a tree."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n816.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "three siama gibbons sitting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "On a branch, there are three Siamang gibbons, a type of monkey, captured in a photo."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8021.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey eating a piece of fruit"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the image of a black-headed night monkey, a specific type of monkey, as it indulges in a piece of fruit."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n819.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "the animal is in the tree"
+        ],
+        "synthetic_merged_caption": [
+            "In the tree, there is a black-headed night monkey, which is a type of monkey."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n802.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "an orange monkey sits on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A black-headed night monkey, a type of monkey, is captured in a photo as it sits on a branch."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8015.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a brown monkey with red eyes in an enclosure"
+        ],
+        "synthetic_merged_caption": [
+            "In an enclosure, there is a photo of a black-headed night monkey, which is a type of monkey with brown fur and red eyes."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n805.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "a little monkey is on top of a bush with red eyes"
+        ],
+        "synthetic_merged_caption": [
+            "On top of a bush, there is a black-headed night monkey, a type of monkey, with red eyes."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n812.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "an adorable red monkey peeking through bamboo stalks"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of an adorable black-headed night monkey, a type of monkey, peeking through bamboo stalks."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n8010.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "A small monkey sitting in a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a black-headed night monkey, a small type of monkey, sitting on a tree branch."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n803.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "an image of a monkey in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "In the photo, there is a black-headed night monkey, which is a specific type of monkey, perched on a tree."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n8/n815.jpg": {
+        "classname": "black headed night monkey",
+        "default_caption": null,
+        "primer_caption": "A photo of a black headed night monkey, a type of monkey.",
+        "synthetic_caption": [
+            "close up of a tiny monkey in the tree"
+        ],
+        "synthetic_merged_caption": [
+            "In the tree, there is a close-up photo of a black-headed night monkey, which is a type of monkey."
+        ],
+        "target": 8
+    },
+    "monkeys10/validation/validation/n9/n9021.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sits on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "A nilgiri langur, a type of monkey, is captured in a photo as it sits on a branch."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n902.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a brown ring-tailed macaque with a white patch on its cheek is sitting in a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "Sitting on a tree branch is a nilgiri langur, a type of monkey, characterized by its brown ring-tailed appearance and a white patch on its cheek."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n913.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "black gibbon monkey sitting on tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a nilgiri langur, a type of monkey, shows a black gibbon monkey sitting on a tree branch."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9024.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey is sitting in a tree"
+        ],
+        "synthetic_merged_caption": [
+            "A nilgiri langur, a type of monkey, is captured in a photo as it sits in a tree."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n914.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "the brown and black monkey on the tree with leaves in the background - stock image"
+        ],
+        "synthetic_merged_caption": [
+            "A stock image depicts a nilgiri langur, a type of monkey, perched on a tree with leaves in the background."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n904.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "tusk monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a nilgiri langur, a type of monkey known for its distinctive tusks."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9013.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey sits in a tree and looks out at the water"
+        ],
+        "synthetic_merged_caption": [
+            "A nilgiri langur, a type of monkey, sits in a tree and gazes out at the water."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n910.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "This image is of a monkey sitting on a branch in a forest"
+        ],
+        "synthetic_merged_caption": [
+            "This image depicts a nilgiri langur, a specific type of monkey, sitting on a branch in a forest."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9030.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "black monkey sitting on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a nilgiri langur, a type of monkey, shows a black monkey sitting on a tree branch."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n909.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a large tree branch with a tan monkey"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a nilgiri langur, a type of monkey, shows the monkey perched on a large tree branch."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9012.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "two gibbons perched on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "Perched on a tree branch, there are two gibbons, a type of monkey, captured in a photo."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n907.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "the photo shows a black monkey sitting on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "The photo depicts a nilgiri langur, a type of monkey, sitting on a tree branch."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n903.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey in a tree in a rainforest in north korea"
+        ],
+        "synthetic_merged_caption": [
+            "In a rainforest in North Korea, there is a photo of a nilgiri langur, which is a type of monkey."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9015.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey is a white tailed mountain gorilla,"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a nilgiri langur, a type of monkey, is not the same as a white-tailed mountain gorilla."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n912.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey with long hair sits on a branch on top of a fence - stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo shows a nilgiri langur, a type of monkey with long hair, sitting on a branch atop a fence."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n900.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "the black and white monkey is sitting on a branch"
+        ],
+        "synthetic_merged_caption": [
+            "Sitting on a branch, the nilgiri langur, a type of monkey, can be seen in the photo."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9010.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a close up of a brown and black monkey sitting in the grass"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a nilgiri langur, a type of brown and black monkey, sitting in the grass."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n911.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a black monkey sits on a tree with its head tilted upward"
+        ],
+        "synthetic_merged_caption": [
+            "A nilgiri langur, a type of monkey, is depicted in a photo as it sits on a tree with its head tilted upward."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n918.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a large black monkey leaping off of a tree"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures the image of a nilgiri langur, a type of monkey, as it gracefully leaps off a tree."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n906.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "monkey e. ferocephalus is sitting on a tree branch"
+        ],
+        "synthetic_merged_caption": [
+            "A photo captures a nilgiri langur, a type of monkey, sitting on a tree branch."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n916.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a monkey on a tree branch with a flower on its head - stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A stock photo depicts a nilgiri langur, a type of monkey, perched on a tree branch with a flower adorning its head."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9011.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey's hair is long and black"
+        ],
+        "synthetic_merged_caption": [
+            "The nilgiri langur, a type of monkey, has long and black hair."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n9026.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a black monkey with long hair is eating a fruit"
+        ],
+        "synthetic_merged_caption": [
+            "A nilgiri langur, a type of monkey with long hair, is captured in a photo while eating a fruit."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n908.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "a black monkey is sitting on a tree branch with some leaves"
+        ],
+        "synthetic_merged_caption": [
+            "A nilgiri langur, a type of monkey, is depicted in a photo as it sits on a tree branch adorned with leaves."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n905.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "female gibbon holding young"
+        ],
+        "synthetic_merged_caption": [
+            "A photo of a female nilgiri langur, a type of monkey, holding her young."
+        ],
+        "target": 9
+    },
+    "monkeys10/validation/validation/n9/n901.jpg": {
+        "classname": "nilgiri langur",
+        "default_caption": null,
+        "primer_caption": "A photo of a nilgiri langur, a type of monkey.",
+        "synthetic_caption": [
+            "the monkey has black and white fur"
+        ],
+        "synthetic_merged_caption": [
+            "The nilgiri langur, a type of monkey, is characterized by its black and white fur."
+        ],
+        "target": 9
+    }
+}

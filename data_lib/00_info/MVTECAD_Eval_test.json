@@ -1,0 +1,4144 @@
+{
+    "data/bottle-broken_large/000.png": {
+        "classname": "bottle with large break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with large break.",
+        "synthetic_caption": [
+            "a beer bottle in a circular shape",
+            "a beer bottle in a circular shape"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a circular beer bottle with a large crack.",
+            "A close-up photo of a circular beer bottle with a large crack."
+        ],
+        "target": 0
+    },
+    "data/bottle-broken_large/005.png": {
+        "classname": "bottle with large break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with large break.",
+        "synthetic_caption": [
+            "The camera moves up to the top of a brown plastic bottle"
+        ],
+        "synthetic_merged_caption": [
+            "The camera captures a close-up photo of a brown plastic bottle with a large crack at the top."
+        ],
+        "target": 0
+    },
+    "data/bottle-broken_large/010.png": {
+        "classname": "bottle with large break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with large break.",
+        "synthetic_caption": [
+            "the black bottle is inverted on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "On a white background, there is a close-up photo of a black bottle with a large crack."
+        ],
+        "target": 0
+    },
+    "data/bottle-broken_large/015.png": {
+        "classname": "bottle with large break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with large break.",
+        "synthetic_caption": [
+            "A bottle of wine with its hole open"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a bottle with a large crack reveals a wine bottle with its hole open."
+        ],
+        "target": 0
+    },
+    "data/bottle-broken_small/000.png": {
+        "classname": "bottle with small break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with small break.",
+        "synthetic_caption": [
+            "The bottom of a black and white glass bottle"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a small crack at the bottom of a black and white glass bottle."
+        ],
+        "target": 1
+    },
+    "data/bottle-broken_small/005.png": {
+        "classname": "bottle with small break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with small break.",
+        "synthetic_caption": [
+            "close up of a cola drink can with a crack in it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a cola drink can reveals a small crack in the bottle."
+        ],
+        "target": 1
+    },
+    "data/bottle-broken_small/010.png": {
+        "classname": "bottle with small break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with small break.",
+        "synthetic_caption": [
+            "an alcoholic beverage"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a bottle with a small crack reveals an alcoholic beverage."
+        ],
+        "target": 1
+    },
+    "data/bottle-broken_small/015.png": {
+        "classname": "bottle with small break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with small break.",
+        "synthetic_caption": [
+            "The image shows the inside of an ounce bottle"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo reveals a small crack on the inside of an ounce bottle."
+        ],
+        "target": 1
+    },
+    "data/bottle-broken_small/020.png": {
+        "classname": "bottle with small break",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with small break.",
+        "synthetic_caption": [
+            "an image taken inside a brown water bottle, showing the interior of the bottle, with an open mouth"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown water bottle reveals a small crack on the exterior, while the interior of the bottle is captured in the image, showing an open mouth."
+        ],
+        "target": 1
+    },
+    "data/bottle-contamination/003.png": {
+        "classname": "bottle with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with contamination.",
+        "synthetic_caption": [
+            "of the inside of a cup"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of the inside of a cup reveals contamination."
+        ],
+        "target": 2
+    },
+    "data/bottle-contamination/008.png": {
+        "classname": "bottle with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with contamination.",
+        "synthetic_caption": [
+            "a close up of an inverted black camera lens in a white cup"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a bottle with contamination, while in another close-up, an inverted black camera lens is seen in a white cup."
+        ],
+        "target": 2
+    },
+    "data/bottle-contamination/013.png": {
+        "classname": "bottle with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with contamination.",
+        "synthetic_caption": [
+            "A mug with a spoon, the handle showing the water."
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a bottle with contamination reveals detailed real-world knowledge, while a mug with a spoon, the handle showing the water, exhibits nice sentence structure."
+        ],
+        "target": 2
+    },
+    "data/bottle-contamination/018.png": {
+        "classname": "bottle with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle with contamination.",
+        "synthetic_caption": [
+            "there is a pipe in the middle of a bottle"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a bottle with contamination is depicted, revealing the presence of a pipe in its center."
+        ],
+        "target": 2
+    },
+    "data/bottle-good/002.png": {
+        "classname": "bottle",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle.",
+        "synthetic_caption": [
+            "it's the top of the bottle"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of the top of a bottle without any faults."
+        ],
+        "target": 3
+    },
+    "data/bottle-good/007.png": {
+        "classname": "bottle",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle.",
+        "synthetic_caption": [
+            "a bottle of black liquor with a gold handle"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a bottle without faults reveals a bottle of black liquor with a gold handle."
+        ],
+        "target": 3
+    },
+    "data/bottle-good/012.png": {
+        "classname": "bottle",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle.",
+        "synthetic_caption": [
+            "the image shows the top of a wine bottle in a black background"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a flawless wine bottle against a black background."
+        ],
+        "target": 3
+    },
+    "data/bottle-good/017.png": {
+        "classname": "bottle",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a bottle.",
+        "synthetic_caption": [
+            "the top part of a glass bottle with a black lid on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a glass bottle with a black lid on a white background, showcasing its flawless appearance."
+        ],
+        "target": 3
+    },
+    "data/cable-bent_wire/002.png": {
+        "classname": "cable with bent wire",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with bent wire.",
+        "synthetic_caption": [
+            "three electrical wires encased in a plastic container"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a cable with bent wire, which consists of three electrical wires encased in a plastic container."
+        ],
+        "target": 4
+    },
+    "data/cable-bent_wire/007.png": {
+        "classname": "cable with bent wire",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with bent wire.",
+        "synthetic_caption": [
+            "it shows three copper colored plastic balls inside a glass jar"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a cable with bent wire reveals three copper-colored plastic balls inside a glass jar."
+        ],
+        "target": 4
+    },
+    "data/cable-bent_wire/012.png": {
+        "classname": "cable with bent wire",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with bent wire.",
+        "synthetic_caption": [
+            "The image is of a three wires in a cup with two other wires that are blue and green"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a cable with bent wire, while also showing three wires in a cup along with two additional wires that are blue and green."
+        ],
+        "target": 4
+    },
+    "data/cable-cable_swap/004.png": {
+        "classname": "cable with inner cable swap",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with inner cable swap.",
+        "synthetic_caption": [
+            "there is a blue and a blue and white metal tube"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a cable swap featuring a blue and white metal tube."
+        ],
+        "target": 5
+    },
+    "data/cable-cable_swap/009.png": {
+        "classname": "cable with inner cable swap",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with inner cable swap.",
+        "synthetic_caption": [
+            "two blue, and a blue wire"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a cable with a cable swap, consisting of two blue wires."
+        ],
+        "target": 5
+    },
+    "data/cable-combined/002.png": {
+        "classname": "cable with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with combined.",
+        "synthetic_caption": [
+            "a blue coloured piece of metal"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a cable with same-colored cables reveals a blue-colored piece of metal."
+        ],
+        "target": 6
+    },
+    "data/cable-combined/007.png": {
+        "classname": "cable with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with combined.",
+        "synthetic_caption": [
+            "there is a hole in the middle of the fruit"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a hole in the middle of a fruit, surrounded by cables of the same color."
+        ],
+        "target": 6
+    },
+    "data/cable-cut_inner_insulation/001.png": {
+        "classname": "cable with cut inner insulation",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with cut inner insulation.",
+        "synthetic_caption": [
+            "three cables are shown in a black and white background"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, three cables are shown against a black and white background, revealing cut inner insulation."
+        ],
+        "target": 7
+    },
+    "data/cable-cut_inner_insulation/006.png": {
+        "classname": "cable with cut inner insulation",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with cut inner insulation.",
+        "synthetic_caption": [
+            "a sample of an electrical insulator"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a cable with cut inner insulation provides a detailed real-world example of an electrical insulator."
+        ],
+        "target": 7
+    },
+    "data/cable-cut_inner_insulation/011.png": {
+        "classname": "cable with cut inner insulation",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with cut inner insulation.",
+        "synthetic_caption": [
+            "three little metal cups surrounded by a concrete wall"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo shows a cable with cut inner insulation, while three little metal cups are seen surrounded by a concrete wall."
+        ],
+        "target": 7
+    },
+    "data/cable-cut_outer_insulation/002.png": {
+        "classname": "cable with cut outer insulation",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with cut outer insulation.",
+        "synthetic_caption": [
+            "three electrical wires in a cylinder are shown"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, three electrical wires are shown inside a cylinder, with the outer insulation cut."
+        ],
+        "target": 8
+    },
+    "data/cable-cut_outer_insulation/007.png": {
+        "classname": "cable with cut outer insulation",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with cut outer insulation.",
+        "synthetic_caption": [
+            "3 different colored metals are inside of a small cup"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a cable with cut outer insulation, revealing three different colored metals inside a small cup."
+        ],
+        "target": 8
+    },
+    "data/cable-good/002.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "Three copper and aluminum balls arranged in a bowl"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, three copper and aluminum balls are arranged faultlessly in a bowl."
+        ],
+        "target": 9
+    },
+    "data/cable-good/007.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "The image shows a three colored cables sitting in a metal container"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a cable without any faults, showcasing its three colors as it sits inside a metal container."
+        ],
+        "target": 9
+    },
+    "data/cable-good/012.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "three colored plastic pipes with colored metal threads"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of three colored plastic pipes with colored metal threads, showcasing a cable without any faults."
+        ],
+        "target": 9
+    },
+    "data/cable-good/017.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "in it, three blue / blue colored cords are displayed in a cup on the side"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, three blue cords are displayed in a cup on the side, showcasing their flawless condition."
+        ],
+        "target": 9
+    },
+    "data/cable-good/022.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "three colored plastic balls, one with a blue and gold ring"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a cable without any visible faults, alongside three colored plastic balls, one of which has a blue and gold ring."
+        ],
+        "target": 9
+    },
+    "data/cable-good/027.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "The image shows three colorful copper wires inside of a plastic pot"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a cable without any visible faults, revealing three colorful copper wires enclosed within a plastic pot."
+        ],
+        "target": 9
+    },
+    "data/cable-good/032.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "3 copper and aluminum wires inside of a glass cup"
+        ],
+        "synthetic_merged_caption": [
+            "Inside a glass cup, there is a close-up photo of a cable without faults, consisting of three copper and aluminum wires."
+        ],
+        "target": 9
+    },
+    "data/cable-good/037.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "Three colored colored ceramic balls"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of three colored ceramic balls reveals their flawless appearance."
+        ],
+        "target": 9
+    },
+    "data/cable-good/042.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "the image shows a pipe with three different colored cables"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a cable that is free from any faults, while also showcasing three cables of different colors."
+        ],
+        "target": 9
+    },
+    "data/cable-good/047.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "three wires in the jar with different colors"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a cable without any faults, consisting of three wires in a jar, each wire being of a different color."
+        ],
+        "target": 9
+    },
+    "data/cable-good/052.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "three different colored small objects are in a metal container"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a cable without any visible faults, while inside a metal container, there are three small objects of different colors."
+        ],
+        "target": 9
+    },
+    "data/cable-good/057.png": {
+        "classname": "cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable.",
+        "synthetic_caption": [
+            "two electrical wires connected inside a wire"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a cable without faults reveals two electrical wires connected inside the cable."
+        ],
+        "target": 9
+    },
+    "data/cable-missing_cable/004.png": {
+        "classname": "cable with missing inner cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with missing inner cable.",
+        "synthetic_caption": [
+            "two wires, in a plugged in container"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a cable is fully missing, revealing two wires inside a plugged-in container."
+        ],
+        "target": 10
+    },
+    "data/cable-missing_cable/009.png": {
+        "classname": "cable with missing inner cable",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with missing inner cable.",
+        "synthetic_caption": [
+            "a toilet with the head of the toilet pipe dipped in the blue, black and red liquids"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a cable is fully missing, while in another image, a toilet is shown with the head of the toilet pipe dipped in blue, black, and red liquids."
+        ],
+        "target": 10
+    },
+    "data/cable-missing_wire/002.png": {
+        "classname": "cable with missing wire",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with missing wire.",
+        "synthetic_caption": [
+            "i want to draw your attention to the blue, green and purple balls in the image below"
+        ],
+        "synthetic_merged_caption": [
+            "In the image below, there is a close-up photo of a cable with missing wire, as well as blue, green, and purple balls that I would like to draw your attention to."
+        ],
+        "target": 11
+    },
+    "data/cable-missing_wire/007.png": {
+        "classname": "cable with missing wire",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with missing wire.",
+        "synthetic_caption": [
+            "Three blue, purple, and green balls sit on top of an orange wire in a blue and brown metal cup"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a cable with missing wire is depicted, while three blue, purple, and green balls are seen resting on top of an orange wire in a blue and brown metal cup."
+        ],
+        "target": 11
+    },
+    "data/cable-poke_insulation/002.png": {
+        "classname": "cable with poke insulation",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with poke insulation.",
+        "synthetic_caption": [
+            "of a blue colored, copper colored, and orange colored wire"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a cable with poked insulation reveals a combination of blue, copper, and orange colored wires."
+        ],
+        "target": 12
+    },
+    "data/cable-poke_insulation/007.png": {
+        "classname": "cable with poke insulation",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a cable with poke insulation.",
+        "synthetic_caption": [
+            "in the foreground is a brown, orange, and blue slit a purple piece of paper with a gold ball, which is embedded in a copper clad"
+        ],
+        "synthetic_merged_caption": [
+            "In the foreground of the close-up photo, there is a cable with poked insulation, while also featuring a brown, orange, and blue slit, as well as a purple piece of paper with a gold ball embedded in a copper clad."
+        ],
+        "target": 12
+    },
+    "data/capsule-crack/002.png": {
+        "classname": "capsule with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with crack.",
+        "synthetic_caption": [
+            "a drug pill, with the words factavitas 500 written on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a capsule with a crack reveals a drug pill with the words \"factavitas 500\" written on it."
+        ],
+        "target": 13
+    },
+    "data/capsule-crack/007.png": {
+        "classname": "capsule with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with crack.",
+        "synthetic_caption": [
+            "an orange capsule on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of an orange capsule with a crack is shown on a white background."
+        ],
+        "target": 13
+    },
+    "data/capsule-crack/012.png": {
+        "classname": "capsule with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with crack.",
+        "synthetic_caption": [
+            "A capsule with the word 5000 on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a capsule with a crack reveals the word \"5000\" on it."
+        ],
+        "target": 13
+    },
+    "data/capsule-crack/017.png": {
+        "classname": "capsule with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with crack.",
+        "synthetic_caption": [
+            "image caption: capsule with pill size 500mg"
+        ],
+        "synthetic_merged_caption": [
+            "The image caption describes a close-up photo of a capsule with a crack, revealing its pill size of 500mg."
+        ],
+        "target": 13
+    },
+    "data/capsule-crack/022.png": {
+        "classname": "capsule with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with crack.",
+        "synthetic_caption": [
+            "a small orange and black pill on top of a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small orange and black pill with a crack on top of a white background."
+        ],
+        "target": 13
+    },
+    "data/capsule-faulty_imprint/004.png": {
+        "classname": "capsule with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with faulty imprint.",
+        "synthetic_caption": [
+            "a pink orange and black pill sitting on top of white"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a capsule with a faulty imprint, featuring a combination of pink, orange, and black colors, resting on a white surface."
+        ],
+        "target": 14
+    },
+    "data/capsule-faulty_imprint/009.png": {
+        "classname": "capsule with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with faulty imprint.",
+        "synthetic_caption": [
+            "the medicine is made from an orange pill and black capsule"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a capsule with a faulty imprint, which contains medicine made from an orange pill and a black capsule."
+        ],
+        "target": 14
+    },
+    "data/capsule-faulty_imprint/014.png": {
+        "classname": "capsule with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with faulty imprint.",
+        "synthetic_caption": [
+            "an orange and black pill containing the name actavis 500"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of an orange and black pill containing the name Actavis 500 reveals a capsule with a faulty imprint."
+        ],
+        "target": 14
+    },
+    "data/capsule-faulty_imprint/019.png": {
+        "classname": "capsule with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with faulty imprint.",
+        "synthetic_caption": [
+            "A orange and black capsule with the word 500 printed on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals an orange and black capsule with a faulty imprint, specifically the word \"500\" printed on it."
+        ],
+        "target": 14
+    },
+    "data/capsule-good/002.png": {
+        "classname": "capsule",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule.",
+        "synthetic_caption": [
+            "an orange and black pill has the label actavis 500"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of an orange and black pill with the label \"Actavis 500\" reveals a capsule without any visible flaws."
+        ],
+        "target": 15
+    },
+    "data/capsule-good/007.png": {
+        "classname": "capsule",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule.",
+        "synthetic_caption": [
+            "a red orange pill with the word actavis on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a red orange pill with the word \"Actavis\" on it, showcasing its flawless appearance."
+        ],
+        "target": 15
+    },
+    "data/capsule-good/012.png": {
+        "classname": "capsule",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule.",
+        "synthetic_caption": [
+            "swiss e-cig is a cig capsule made from pure gold with"
+        ],
+        "synthetic_merged_caption": [
+            "a flawless design."
+        ],
+        "target": 15
+    },
+    "data/capsule-good/017.png": {
+        "classname": "capsule",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule.",
+        "synthetic_caption": [
+            "a 500 tablet with the words 500"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a flawless capsule, containing 500 tablets with the words \"500\" imprinted on them."
+        ],
+        "target": 15
+    },
+    "data/capsule-good/022.png": {
+        "classname": "capsule",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule.",
+        "synthetic_caption": [
+            "A pill with the words california 5000 on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a capsule without faults reveals a pill with the words \"California 5000\" imprinted on it."
+        ],
+        "target": 15
+    },
+    "data/capsule-poke/004.png": {
+        "classname": "capsule with poke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with poke.",
+        "synthetic_caption": [
+            "a small capsule with the word adolfo"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a small capsule with a small hole, and it is labeled with the word \"adolfo.\""
+        ],
+        "target": 16
+    },
+    "data/capsule-poke/009.png": {
+        "classname": "capsule with poke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with poke.",
+        "synthetic_caption": [
+            "a pill that is red and orange in color and says 500"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a capsule with a small hole, which is red and orange in color and labeled as 500."
+        ],
+        "target": 16
+    },
+    "data/capsule-poke/014.png": {
+        "classname": "capsule with poke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with poke.",
+        "synthetic_caption": [
+            "the image shows a pill with a 50 number on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a capsule with a small hole, while also revealing a pill with the number 50 on it."
+        ],
+        "target": 16
+    },
+    "data/capsule-poke/019.png": {
+        "classname": "capsule with poke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with poke.",
+        "synthetic_caption": [
+            "a black capsule on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black capsule with a small hole is taken on a white surface."
+        ],
+        "target": 16
+    },
+    "data/capsule-scratch/003.png": {
+        "classname": "capsule with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with scratched.",
+        "synthetic_caption": [
+            "an orange pill on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of an orange pill with a scratch on a white surface."
+        ],
+        "target": 17
+    },
+    "data/capsule-scratch/008.png": {
+        "classname": "capsule with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with scratched.",
+        "synthetic_caption": [
+            "The medusa is a drug capsule"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a drug capsule with a scratch reveals the presence of the medusa."
+        ],
+        "target": 17
+    },
+    "data/capsule-scratch/013.png": {
+        "classname": "capsule with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with scratched.",
+        "synthetic_caption": [
+            "an orange pill and white tablet with the word actax 500 on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a capsule with a scratch reveals an orange pill and a white tablet with the word \"actax 500\" on it."
+        ],
+        "target": 17
+    },
+    "data/capsule-scratch/018.png": {
+        "classname": "capsule with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with scratched.",
+        "synthetic_caption": [
+            "an orange and black pill with the word actavis 500"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of an orange and black pill with the word \"actavis 500\" reveals a scratch on the capsule."
+        ],
+        "target": 17
+    },
+    "data/capsule-squeeze/000.png": {
+        "classname": "capsule with squeeze",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with squeeze.",
+        "synthetic_caption": [
+            "a tablet is seen sitting on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tablet with a dent is seen sitting on a white surface."
+        ],
+        "target": 18
+    },
+    "data/capsule-squeeze/005.png": {
+        "classname": "capsule with squeeze",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with squeeze.",
+        "synthetic_caption": [
+            "A pill in orange and black that contains the word 500"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a capsule with a dent reveals a pill in orange and black that contains the word 500."
+        ],
+        "target": 18
+    },
+    "data/capsule-squeeze/010.png": {
+        "classname": "capsule with squeeze",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with squeeze.",
+        "synthetic_caption": [
+            "A pill with the number 5000 on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a capsule with a dent reveals a pill with the number 5000 on it."
+        ],
+        "target": 18
+    },
+    "data/capsule-squeeze/015.png": {
+        "classname": "capsule with squeeze",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a capsule with squeeze.",
+        "synthetic_caption": [
+            "A small orange orange pill with the words 500 on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small orange pill with a dent and the words \"500\" on it."
+        ],
+        "target": 18
+    },
+    "data/carpet-color/000.png": {
+        "classname": "carpet with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with colored spots.",
+        "synthetic_caption": [
+            "the image is showing a black circle on the cloth"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a carpet with coloration, specifically showing a black circle on the cloth."
+        ],
+        "target": 19
+    },
+    "data/carpet-color/005.png": {
+        "classname": "carpet with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with colored spots.",
+        "synthetic_caption": [
+            "it is a close up image of some black and grey fabric"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a carpet with coloration, specifically black and grey fabric."
+        ],
+        "target": 19
+    },
+    "data/carpet-color/010.png": {
+        "classname": "carpet with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with colored spots.",
+        "synthetic_caption": [
+            "a black and white background with a stain"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a carpet with coloration reveals a black and white background with a stain."
+        ],
+        "target": 19
+    },
+    "data/carpet-color/015.png": {
+        "classname": "carpet with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with colored spots.",
+        "synthetic_caption": [
+            "a grey fabric texture with a small hole and white dots"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a grey fabric texture with coloration, featuring a small hole and white dots."
+        ],
+        "target": 19
+    },
+    "data/carpet-cut/001.png": {
+        "classname": "carpet with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with cut.",
+        "synthetic_caption": [
+            "close up of the white burlap background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a carpet with a cut reveals a white burlap background."
+        ],
+        "target": 20
+    },
+    "data/carpet-cut/006.png": {
+        "classname": "carpet with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with cut.",
+        "synthetic_caption": [
+            "a fabric surface showing a lot of wrinkles and holes"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a carpet with a cut reveals a fabric surface that exhibits numerous wrinkles and holes."
+        ],
+        "target": 20
+    },
+    "data/carpet-cut/011.png": {
+        "classname": "carpet with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with cut.",
+        "synthetic_caption": [
+            "woven cloth background with holes"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a carpet with a cut reveals a woven cloth background with holes."
+        ],
+        "target": 20
+    },
+    "data/carpet-cut/016.png": {
+        "classname": "carpet with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with cut.",
+        "synthetic_caption": [
+            "close up image of black, striped linen cloth"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black, striped linen cloth reveals a cut in the fabric."
+        ],
+        "target": 20
+    },
+    "data/carpet-good/004.png": {
+        "classname": "carpet",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet.",
+        "synthetic_caption": [
+            "The background has very light greys on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo of a carpet without faults reveals a background with very light greys."
+        ],
+        "target": 21
+    },
+    "data/carpet-good/009.png": {
+        "classname": "carpet",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet.",
+        "synthetic_caption": [
+            "dark grey fabric texture with small squares on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a dark grey fabric texture with small squares on it, showcasing a carpet without any visible faults."
+        ],
+        "target": 21
+    },
+    "data/carpet-good/014.png": {
+        "classname": "carpet",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet.",
+        "synthetic_caption": [
+            "a close up of a black sack cloth"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black sack cloth reveals a carpet without any visible faults."
+        ],
+        "target": 21
+    },
+    "data/carpet-good/019.png": {
+        "classname": "carpet",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet.",
+        "synthetic_caption": [
+            "a black fabric with white pattern is shown"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo is shown of a black fabric with a white pattern, revealing a carpet without any faults."
+        ],
+        "target": 21
+    },
+    "data/carpet-good/024.png": {
+        "classname": "carpet",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet.",
+        "synthetic_caption": [
+            "texture image of dark fabric"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a dark fabric carpet without any visible faults."
+        ],
+        "target": 21
+    },
+    "data/carpet-hole/001.png": {
+        "classname": "carpet with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with hole.",
+        "synthetic_caption": [
+            "black linen background image"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a carpet with a hole is depicted against a black linen background."
+        ],
+        "target": 22
+    },
+    "data/carpet-hole/006.png": {
+        "classname": "carpet with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with hole.",
+        "synthetic_caption": [
+            "this image is a close up view of a fabric texture"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a carpet with a hole, providing a detailed view of the fabric texture."
+        ],
+        "target": 22
+    },
+    "data/carpet-hole/011.png": {
+        "classname": "carpet with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with hole.",
+        "synthetic_caption": [
+            "a close up image of a grey and black fabric material"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a grey and black fabric material reveals a carpet with a hole."
+        ],
+        "target": 22
+    },
+    "data/carpet-hole/016.png": {
+        "classname": "carpet with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with hole.",
+        "synthetic_caption": [
+            "image by steve beaker on flickr"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo taken by Steve Beaker on Flickr showcases a carpet with a visible hole."
+        ],
+        "target": 22
+    },
+    "data/carpet-metal_contamination/004.png": {
+        "classname": "carpet with metal contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with metal contamination.",
+        "synthetic_caption": [
+            "a small bird is a black and grey cloth fabric"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black and grey cloth fabric reveals metal contamination."
+        ],
+        "target": 23
+    },
+    "data/carpet-metal_contamination/009.png": {
+        "classname": "carpet with metal contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with metal contamination.",
+        "synthetic_caption": [
+            "a person with a black hat on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a carpet with metal contamination shows a person wearing a black hat against a white background."
+        ],
+        "target": 23
+    },
+    "data/carpet-metal_contamination/014.png": {
+        "classname": "carpet with metal contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with metal contamination.",
+        "synthetic_caption": [
+            "texture fabric texture background for design with a white fabric"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a carpet with metal contamination showcases a textured fabric background, ideal for design purposes, featuring a white fabric."
+        ],
+        "target": 23
+    },
+    "data/carpet-thread/002.png": {
+        "classname": "carpet with thread",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with thread.",
+        "synthetic_caption": [
+            "close up of a black square on a dark cloth"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black square on a dark cloth reveals loose threads in the carpet."
+        ],
+        "target": 24
+    },
+    "data/carpet-thread/007.png": {
+        "classname": "carpet with thread",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with thread.",
+        "synthetic_caption": [
+            "a piece of a tablecloth has been folded into a square shape revealing a lone nail"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a piece of a tablecloth has been folded into a square shape, revealing a lone nail and loose threads on a carpet."
+        ],
+        "target": 24
+    },
+    "data/carpet-thread/012.png": {
+        "classname": "carpet with thread",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with thread.",
+        "synthetic_caption": [
+            "a close up image of a jute fabric texture"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a jute fabric texture reveals loose threads."
+        ],
+        "target": 24
+    },
+    "data/carpet-thread/017.png": {
+        "classname": "carpet with thread",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a carpet with thread.",
+        "synthetic_caption": [
+            "in the image there is a piece of fabric"
+        ],
+        "synthetic_merged_caption": [
+            "In the close-up photo, there is a piece of fabric that appears to be a carpet with loose threads."
+        ],
+        "target": 24
+    },
+    "data/grid-bent/003.png": {
+        "classname": "grid with bent",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with bent.",
+        "synthetic_caption": [
+            "the image is of a metal surface with holes in it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a grid with bent metal surface and holes in it."
+        ],
+        "target": 25
+    },
+    "data/grid-bent/008.png": {
+        "classname": "grid with bent",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with bent.",
+        "synthetic_caption": [
+            "this is a close up of a wall with many small black squares"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a grid with bent elements, revealing a wall adorned with numerous small black squares."
+        ],
+        "target": 25
+    },
+    "data/grid-broken/001.png": {
+        "classname": "grid with broken",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with broken.",
+        "synthetic_caption": [
+            "metal mesh pattern with metal holes"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal mesh pattern with metal holes reveals a grid with a break."
+        ],
+        "target": 26
+    },
+    "data/grid-broken/006.png": {
+        "classname": "grid with broken",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with broken.",
+        "synthetic_caption": [
+            "a tweed fabric that is woven into the surface of the screen"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a grid with a break reveals a tweed fabric that is intricately woven into the surface of the screen."
+        ],
+        "target": 26
+    },
+    "data/grid-broken/011.png": {
+        "classname": "grid with broken",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with broken.",
+        "synthetic_caption": [
+            "the image has a square grid"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a grid with a break, showcasing a square pattern."
+        ],
+        "target": 26
+    },
+    "data/grid-glue/004.png": {
+        "classname": "grid with glue",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with glue.",
+        "synthetic_caption": [
+            "a picture of a small hole in a black metal mesh"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a grid with glue reveals a small hole in a black metal mesh."
+        ],
+        "target": 27
+    },
+    "data/grid-glue/009.png": {
+        "classname": "grid with glue",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with glue.",
+        "synthetic_caption": [
+            "this is an image of a metal mesh"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo depicts a metal mesh grid with glue."
+        ],
+        "target": 27
+    },
+    "data/grid-good/003.png": {
+        "classname": "grid",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid.",
+        "synthetic_caption": [
+            "close up of a wire mesh background stock photo - 114929539"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wire mesh background without any faults or imperfections."
+        ],
+        "target": 28
+    },
+    "data/grid-good/008.png": {
+        "classname": "grid",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid.",
+        "synthetic_caption": [
+            "metal mesh pattern background, black with grey dots stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal mesh pattern background, black with grey dots, showcasing a grid without any faults."
+        ],
+        "target": 28
+    },
+    "data/grid-good/013.png": {
+        "classname": "grid",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid.",
+        "synthetic_caption": [
+            "The image shows a black mesh"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo displays a black mesh without any faults."
+        ],
+        "target": 28
+    },
+    "data/grid-good/018.png": {
+        "classname": "grid",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid.",
+        "synthetic_caption": [
+            "a close up of the image"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a grid without faults reveals a detailed image."
+        ],
+        "target": 28
+    },
+    "data/grid-metal_contamination/002.png": {
+        "classname": "grid with metal contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with metal contamination.",
+        "synthetic_caption": [
+            "the image is made up of a pattern of the same design"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a grid with metal contamination, showcasing a pattern of the same design."
+        ],
+        "target": 29
+    },
+    "data/grid-metal_contamination/007.png": {
+        "classname": "grid with metal contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with metal contamination.",
+        "synthetic_caption": [
+            "the grey and black zigzag pattern of this pattern is a nice composition"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a grid with metal contamination showcases a visually appealing composition characterized by a grey and black zigzag pattern."
+        ],
+        "target": 29
+    },
+    "data/grid-thread/001.png": {
+        "classname": "grid with thread",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with thread.",
+        "synthetic_caption": [
+            "there is a cat with a beak on the surface"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a grid with thread is depicted, while on the surface, there is a cat with a beak."
+        ],
+        "target": 30
+    },
+    "data/grid-thread/006.png": {
+        "classname": "grid with thread",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a grid with thread.",
+        "synthetic_caption": [
+            "the image shows a metal mesh and grids"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a metal mesh and grids, providing detailed real-world knowledge about the subject."
+        ],
+        "target": 30
+    },
+    "data/hazelnut-crack/000.png": {
+        "classname": "hazelnut with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with crack.",
+        "synthetic_caption": [
+            "This is a brown seed and it is full of nuts"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a crack reveals a brown seed that is full of nuts."
+        ],
+        "target": 31
+    },
+    "data/hazelnut-crack/005.png": {
+        "classname": "hazelnut with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with crack.",
+        "synthetic_caption": [
+            "an image of a walnut on a black surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a crack is shown on a black surface."
+        ],
+        "target": 31
+    },
+    "data/hazelnut-crack/010.png": {
+        "classname": "hazelnut with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with crack.",
+        "synthetic_caption": [
+            "how can you open this nut"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a crack reveals the process of opening the nut."
+        ],
+        "target": 31
+    },
+    "data/hazelnut-crack/015.png": {
+        "classname": "hazelnut with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with crack.",
+        "synthetic_caption": [
+            "a black background with an image of a hazelnut"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a crack is depicted against a black background."
+        ],
+        "target": 31
+    },
+    "data/hazelnut-cut/002.png": {
+        "classname": "hazelnut with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with cut.",
+        "synthetic_caption": [
+            "up close close up close up close up close up close up close up close up close up close up close up close up close up close up close up close up close up close up close up close up"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a cut, showcasing its intricate details and texture."
+        ],
+        "target": 32
+    },
+    "data/hazelnut-cut/007.png": {
+        "classname": "hazelnut with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with cut.",
+        "synthetic_caption": [
+            "a nut on a black surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a cut is shown on a black surface."
+        ],
+        "target": 32
+    },
+    "data/hazelnut-cut/012.png": {
+        "classname": "hazelnut with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with cut.",
+        "synthetic_caption": [
+            "The image contains a hazelnut with a red line in the middle"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a hazelnut that has been cut, revealing intricate details, while also featuring a distinct red line running through the middle."
+        ],
+        "target": 32
+    },
+    "data/hazelnut-good/000.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "with a pencil - 2x - detail - close up - 2x"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut without any faults, captured with a pencil for added detail and magnification."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-good/005.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "a hazelnut on a dark background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut without any faults is captured on a dark background."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-good/010.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "A brown hazelnut on a dark surface"
+        ],
+        "synthetic_merged_caption": [
+            "On a dark surface, there is a close-up photo of a brown hazelnut without any faults."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-good/015.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "a picture of a hazelnut"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut without any visible flaws or imperfections."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-good/020.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "a hazelnut on a black surface"
+        ],
+        "synthetic_merged_caption": [
+            "On a black surface, there is a close-up photo of a hazelnut that is free from any faults."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-good/025.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "The image is of a hazelnut"
+        ],
+        "synthetic_merged_caption": [
+            "The image is a close-up photo of a hazelnut without any faults."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-good/030.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "a small seed on the black surface of a table"
+        ],
+        "synthetic_merged_caption": [
+            "On the black surface of a table, there is a close-up photo of a hazelnut without any faults."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-good/035.png": {
+        "classname": "hazelnut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut.",
+        "synthetic_caption": [
+            "an image of a walnut in the shape of a nugget on a black surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut without any visible flaws, resembling a nugget, is captured on a black surface."
+        ],
+        "target": 33
+    },
+    "data/hazelnut-hole/000.png": {
+        "classname": "hazelnut with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with hole.",
+        "synthetic_caption": [
+            "a black image of a black nut with a dark spot in it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a hole reveals a black nut with a dark spot in it."
+        ],
+        "target": 34
+    },
+    "data/hazelnut-hole/005.png": {
+        "classname": "hazelnut with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with hole.",
+        "synthetic_caption": [
+            "a wooden hazelnut with a hole in the top"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wooden hazelnut with a hole in the top."
+        ],
+        "target": 34
+    },
+    "data/hazelnut-hole/010.png": {
+        "classname": "hazelnut with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with hole.",
+        "synthetic_caption": [
+            "a single small, flat almond, with the top half of the shell intact"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a hole reveals a single small, flat almond with the top half of the shell intact."
+        ],
+        "target": 34
+    },
+    "data/hazelnut-hole/015.png": {
+        "classname": "hazelnut with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with hole.",
+        "synthetic_caption": [
+            "the nut sliced and cut into two halves"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a hazelnut with a hole reveals the nut sliced and cut into two halves."
+        ],
+        "target": 34
+    },
+    "data/hazelnut-print/002.png": {
+        "classname": "hazelnut with print",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with print.",
+        "synthetic_caption": [
+            "if i could use this image i would use the following text in white, but i also have it centered on the face of the nut i do not want the image"
+        ],
+        "synthetic_merged_caption": [
+            "If I could use this image, I would include the following text in white, centered on the face of the hazelnut. However, I do not want the image."
+        ],
+        "target": 35
+    },
+    "data/hazelnut-print/007.png": {
+        "classname": "hazelnut with print",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with print.",
+        "synthetic_caption": [
+            "a walnut hazelnut"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a walnut hazelnut with print showcases the intricate details of this nut."
+        ],
+        "target": 35
+    },
+    "data/hazelnut-print/012.png": {
+        "classname": "hazelnut with print",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a hazelnut with print.",
+        "synthetic_caption": [
+            "This image is a close up of a walnut"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a hazelnut with a distinct print, providing detailed real-world information about the subject."
+        ],
+        "target": 35
+    },
+    "data/leather-color/000.png": {
+        "classname": "leather with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with colored spots.",
+        "synthetic_caption": [
+            "a leather satchel with holes and scratches"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a leather satchel with coloration, holes, and scratches."
+        ],
+        "target": 36
+    },
+    "data/leather-color/005.png": {
+        "classname": "leather with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with colored spots.",
+        "synthetic_caption": [
+            "brown leather texture \u2014 stock photo - 1756384"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather texture with coloration is depicted in stock photo - 1756384."
+        ],
+        "target": 36
+    },
+    "data/leather-color/010.png": {
+        "classname": "leather with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with colored spots.",
+        "synthetic_caption": [
+            "the image of a brown leather texture"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a brown leather texture with intricate coloration."
+        ],
+        "target": 36
+    },
+    "data/leather-color/015.png": {
+        "classname": "leather with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with colored spots.",
+        "synthetic_caption": [
+            "an image of a brown leather patch"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a brown leather patch with intricate coloration."
+        ],
+        "target": 36
+    },
+    "data/leather-cut/001.png": {
+        "classname": "leather with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with cut.",
+        "synthetic_caption": [
+            "a large hole in the leather"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a large hole in the leather."
+        ],
+        "target": 37
+    },
+    "data/leather-cut/006.png": {
+        "classname": "leather with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with cut.",
+        "synthetic_caption": [
+            "close-up detail of brown leather texture"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather texture with a cut."
+        ],
+        "target": 37
+    },
+    "data/leather-cut/011.png": {
+        "classname": "leather with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with cut.",
+        "synthetic_caption": [
+            "this is a close up image of brown leather"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up image showcases a brown leather with a cut."
+        ],
+        "target": 37
+    },
+    "data/leather-cut/016.png": {
+        "classname": "leather with cut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with cut.",
+        "synthetic_caption": [
+            "a small hole in a brown leather texture"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a small hole in the texture of a brown leather."
+        ],
+        "target": 37
+    },
+    "data/leather-fold/002.png": {
+        "classname": "leather with fold",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with fold.",
+        "synthetic_caption": [
+            "this photo shows some leather texture"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a leather texture with a visible fold."
+        ],
+        "target": 38
+    },
+    "data/leather-fold/007.png": {
+        "classname": "leather with fold",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with fold.",
+        "synthetic_caption": [
+            "a close up photo of a brown leather surface with holes"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather surface with folds and holes."
+        ],
+        "target": 38
+    },
+    "data/leather-fold/012.png": {
+        "classname": "leather with fold",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with fold.",
+        "synthetic_caption": [
+            "leather texture - background - image"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a leather texture with a fold in the background."
+        ],
+        "target": 38
+    },
+    "data/leather-glue/000.png": {
+        "classname": "leather with glue",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with glue.",
+        "synthetic_caption": [
+            "close-up of the brown leather - texture and detail"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather with glue reveals intricate texture and detail."
+        ],
+        "target": 39
+    },
+    "data/leather-glue/005.png": {
+        "classname": "leather with glue",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with glue.",
+        "synthetic_caption": [
+            "a water droplet sits on the surface of a brown leather surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a brown leather surface with glue, while a water droplet sits on its surface."
+        ],
+        "target": 39
+    },
+    "data/leather-glue/010.png": {
+        "classname": "leather with glue",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with glue.",
+        "synthetic_caption": [
+            "The leather texture is brown"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather texture with glue."
+        ],
+        "target": 39
+    },
+    "data/leather-glue/015.png": {
+        "classname": "leather with glue",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with glue.",
+        "synthetic_caption": [
+            "the image shows a detail of a brown leather texture"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a brown leather texture with visible glue."
+        ],
+        "target": 39
+    },
+    "data/leather-good/001.png": {
+        "classname": "leather",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather.",
+        "synthetic_caption": [
+            "an image of brown leather texture -"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a flawless brown leather texture."
+        ],
+        "target": 40
+    },
+    "data/leather-good/006.png": {
+        "classname": "leather",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather.",
+        "synthetic_caption": [
+            "a photo of a leather texture, with the texture of a brown leather"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather texture reveals a flawless surface."
+        ],
+        "target": 40
+    },
+    "data/leather-good/011.png": {
+        "classname": "leather",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather.",
+        "synthetic_caption": [
+            "a brown leather texture as a backdrop stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather texture without any faults serves as a backdrop in this stock photo."
+        ],
+        "target": 40
+    },
+    "data/leather-good/016.png": {
+        "classname": "leather",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather.",
+        "synthetic_caption": [
+            "a close up image of a brown leather background stock photo"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a brown leather background without any faults."
+        ],
+        "target": 40
+    },
+    "data/leather-good/021.png": {
+        "classname": "leather",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather.",
+        "synthetic_caption": [
+            "close-up view of a tan leather texture"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tan leather texture reveals a flawless surface."
+        ],
+        "target": 40
+    },
+    "data/leather-good/026.png": {
+        "classname": "leather",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather.",
+        "synthetic_caption": [
+            "leather texture background \u2014 stock photo - 1229924"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a flawless leather texture background, as depicted in stock photo 1229924."
+        ],
+        "target": 40
+    },
+    "data/leather-good/031.png": {
+        "classname": "leather",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather.",
+        "synthetic_caption": [
+            "close-up leather surface textured background in brown with lines and brown stains"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a leather surface with a textured brown background, showcasing lines and brown stains without any faults."
+        ],
+        "target": 40
+    },
+    "data/leather-poke/004.png": {
+        "classname": "leather with poke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with poke.",
+        "synthetic_caption": [
+            "it shows an object that looks like a hole"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a leather with a poke reveals an object that resembles a hole."
+        ],
+        "target": 41
+    },
+    "data/leather-poke/009.png": {
+        "classname": "leather with poke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with poke.",
+        "synthetic_caption": [
+            "This is a close up of a brown leather patch"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a brown leather patch with a poke."
+        ],
+        "target": 41
+    },
+    "data/leather-poke/014.png": {
+        "classname": "leather with poke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a leather with poke.",
+        "synthetic_caption": [
+            "close up of the leather texture"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a leather texture with poke."
+        ],
+        "target": 41
+    },
+    "data/metal_nut-bent/001.png": {
+        "classname": "metal nut with bent",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with bent.",
+        "synthetic_caption": [
+            "A small metal tube that has a hole in it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal nut with a bent shows a small metal tube that has a hole in it."
+        ],
+        "target": 42
+    },
+    "data/metal_nut-bent/006.png": {
+        "classname": "metal nut with bent",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with bent.",
+        "synthetic_caption": [
+            "The image shows an image of a grey object"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a grey metal nut that is bent."
+        ],
+        "target": 42
+    },
+    "data/metal_nut-bent/011.png": {
+        "classname": "metal nut with bent",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with bent.",
+        "synthetic_caption": [
+            "he has an eye on a piece of metal"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal nut with a bent shows a detailed view of the distorted shape."
+        ],
+        "target": 42
+    },
+    "data/metal_nut-bent/016.png": {
+        "classname": "metal nut with bent",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with bent.",
+        "synthetic_caption": [
+            "close up of a metal nuts on a black background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal nut with a bent is shown on a black background."
+        ],
+        "target": 42
+    },
+    "data/metal_nut-bent/021.png": {
+        "classname": "metal nut with bent",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with bent.",
+        "synthetic_caption": [
+            "close up of a plastic metal nut"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal nut with a bent is shown."
+        ],
+        "target": 42
+    },
+    "data/metal_nut-color/001.png": {
+        "classname": "metal nut with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with colored spots.",
+        "synthetic_caption": [
+            "c3-x4-x1 - stainless steel nut - 20mm"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a 20mm stainless steel nut with color."
+        ],
+        "target": 43
+    },
+    "data/metal_nut-color/006.png": {
+        "classname": "metal nut with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with colored spots.",
+        "synthetic_caption": [
+            "- a small plastic circular object"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small plastic circular object with color, resembling a metal nut."
+        ],
+        "target": 43
+    },
+    "data/metal_nut-color/011.png": {
+        "classname": "metal nut with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with colored spots.",
+        "synthetic_caption": [
+            "a metal round nut with scratches on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal round nut with color and scratches on it."
+        ],
+        "target": 43
+    },
+    "data/metal_nut-color/016.png": {
+        "classname": "metal nut with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with colored spots.",
+        "synthetic_caption": [
+            "metal nut with a black background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal nut with color is depicted against a black background."
+        ],
+        "target": 43
+    },
+    "data/metal_nut-color/021.png": {
+        "classname": "metal nut with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with colored spots.",
+        "synthetic_caption": [
+            "this image shows a metal nut with a hole in it"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo depicts a metal nut with a hole in it, showcasing its vibrant color."
+        ],
+        "target": 43
+    },
+    "data/metal_nut-flip/004.png": {
+        "classname": "metal nut with flip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with flip.",
+        "synthetic_caption": [
+            "a small metal piece"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small metal piece with a flip, resembling a metal nut."
+        ],
+        "target": 44
+    },
+    "data/metal_nut-flip/009.png": {
+        "classname": "metal nut with flip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with flip.",
+        "synthetic_caption": [
+            "A green h - shape shaped handle in a green glass"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal nut with a flip reveals intricate details, while a green h-shaped handle in a green glass adds a vibrant touch."
+        ],
+        "target": 44
+    },
+    "data/metal_nut-flip/014.png": {
+        "classname": "metal nut with flip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with flip.",
+        "synthetic_caption": [
+            "The image is of a piece of glass sitting on a dark surface"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a metal nut with a flip, while the image also shows a piece of glass resting on a dark surface."
+        ],
+        "target": 44
+    },
+    "data/metal_nut-flip/019.png": {
+        "classname": "metal nut with flip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with flip.",
+        "synthetic_caption": [
+            "this is the front of an upside down cup blown out of a small glass jar"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a metal nut with a flip, resembling the front of an upside-down cup blown out of a small glass jar."
+        ],
+        "target": 44
+    },
+    "data/metal_nut-good/001.png": {
+        "classname": "metal nut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut.",
+        "synthetic_caption": [
+            "an image of a large metal bolt on a black surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a large metal bolt without any faults is shown on a black surface."
+        ],
+        "target": 45
+    },
+    "data/metal_nut-good/006.png": {
+        "classname": "metal nut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut.",
+        "synthetic_caption": [
+            "an equilateral triangle nut"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of an equilateral triangle nut without any faults."
+        ],
+        "target": 45
+    },
+    "data/metal_nut-good/011.png": {
+        "classname": "metal nut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut.",
+        "synthetic_caption": [
+            "the image is an image of a bolt"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a metal nut that is free from any flaws or imperfections."
+        ],
+        "target": 45
+    },
+    "data/metal_nut-good/016.png": {
+        "classname": "metal nut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut.",
+        "synthetic_caption": [
+            "a cross shaped metal hole in the middle of a black surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal nut without faults reveals a cross-shaped metal hole in the middle of a black surface."
+        ],
+        "target": 45
+    },
+    "data/metal_nut-good/021.png": {
+        "classname": "metal nut",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut.",
+        "synthetic_caption": [
+            "A green metal rod with holes in it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a green metal rod with holes in it, revealing a metal nut without any visible flaws."
+        ],
+        "target": 45
+    },
+    "data/metal_nut-scratch/004.png": {
+        "classname": "metal nut with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with scratched.",
+        "synthetic_caption": [
+            "this image shows a large metal cross"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo depicts a metal nut with a visible scratch, providing detailed real-world information."
+        ],
+        "target": 46
+    },
+    "data/metal_nut-scratch/009.png": {
+        "classname": "metal nut with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with scratched.",
+        "synthetic_caption": [
+            "there is a hole in the middle of the metal piece"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a metal nut with a scratch is depicted, revealing a hole in the middle of the metal piece."
+        ],
+        "target": 46
+    },
+    "data/metal_nut-scratch/014.png": {
+        "classname": "metal nut with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with scratched.",
+        "synthetic_caption": [
+            "an image of a stainless steel screw"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a stainless steel screw with a scratch."
+        ],
+        "target": 46
+    },
+    "data/metal_nut-scratch/019.png": {
+        "classname": "metal nut with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a metal nut with scratched.",
+        "synthetic_caption": [
+            "The object is a circular metal nut"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a circular metal nut with a scratch."
+        ],
+        "target": 46
+    },
+    "data/pill-color/001.png": {
+        "classname": "pill with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with colored spots.",
+        "synthetic_caption": [
+            "a white pill containing the letter f and flowers"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white pill with color, containing the letter f and flowers."
+        ],
+        "target": 47
+    },
+    "data/pill-color/006.png": {
+        "classname": "pill with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with colored spots.",
+        "synthetic_caption": [
+            "an oval shaped white pill, og nexium"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of an oval-shaped white pill, specifically Nexium, showcasing its distinct color."
+        ],
+        "target": 47
+    },
+    "data/pill-color/011.png": {
+        "classname": "pill with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with colored spots.",
+        "synthetic_caption": [
+            "a pink f-shaped pill is sitting on a white plate"
+        ],
+        "synthetic_merged_caption": [
+            "On a white plate, there is a close-up photo of a pink f-shaped pill with color."
+        ],
+        "target": 47
+    },
+    "data/pill-color/016.png": {
+        "classname": "pill with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with colored spots.",
+        "synthetic_caption": [
+            "a white pill with red spots in the middle"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a pill with color reveals a white pill with red spots in the middle."
+        ],
+        "target": 47
+    },
+    "data/pill-color/021.png": {
+        "classname": "pill with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with colored spots.",
+        "synthetic_caption": [
+            "an ffl - pills in a tablet"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a colored pill in a tablet form."
+        ],
+        "target": 47
+    },
+    "data/pill-combined/001.png": {
+        "classname": "pill with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with combined.",
+        "synthetic_caption": [
+            "a white pill with red circles on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white pill with red circles on it, which is combined with other ingredients."
+        ],
+        "target": 48
+    },
+    "data/pill-combined/006.png": {
+        "classname": "pill with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with combined.",
+        "synthetic_caption": [
+            "a white pill on a black surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white pill on a black surface showcases a combined medication."
+        ],
+        "target": 48
+    },
+    "data/pill-combined/011.png": {
+        "classname": "pill with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with combined.",
+        "synthetic_caption": [
+            "A pill with the letter f"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a pill with the letter \"f\" combined with detailed real-world knowledge."
+        ],
+        "target": 48
+    },
+    "data/pill-combined/016.png": {
+        "classname": "pill with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with combined.",
+        "synthetic_caption": [
+            "a white pill with a blue letter on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white pill with a blue letter on it reveals a combined medication."
+        ],
+        "target": 48
+    },
+    "data/pill-contamination/004.png": {
+        "classname": "pill with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with contamination.",
+        "synthetic_caption": [
+            "this image is a photograph of an old drug bottle"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photograph depicts a pill with contamination, providing detailed real-world knowledge about the subject."
+        ],
+        "target": 49
+    },
+    "data/pill-contamination/009.png": {
+        "classname": "pill with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with contamination.",
+        "synthetic_caption": [
+            "a white soap with a f on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a pill with contamination reveals a white soap with an \"f\" on it."
+        ],
+        "target": 49
+    },
+    "data/pill-contamination/014.png": {
+        "classname": "pill with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with contamination.",
+        "synthetic_caption": [
+            "iv \u2013 the picture of a white tablet labelled f"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white tablet labelled \"f\" reveals contamination."
+        ],
+        "target": 49
+    },
+    "data/pill-contamination/019.png": {
+        "classname": "pill with contamination",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with contamination.",
+        "synthetic_caption": [
+            "white - the letter f - on a white soap"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a pill with contamination reveals white specks resembling the letter \"f\" on a white soap."
+        ],
+        "target": 49
+    },
+    "data/pill-crack/003.png": {
+        "classname": "pill with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with crack.",
+        "synthetic_caption": [
+            "it is a photo of a white sanitary soap with the letter f on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a pill with crack, not a white sanitary soap with the letter f on it."
+        ],
+        "target": 50
+    },
+    "data/pill-crack/008.png": {
+        "classname": "pill with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with crack.",
+        "synthetic_caption": [
+            "the image shows a small white soap with the letter f on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a pill with a crack, while the image also shows a small white soap with the letter \"f\" on it."
+        ],
+        "target": 50
+    },
+    "data/pill-crack/013.png": {
+        "classname": "pill with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with crack.",
+        "synthetic_caption": [
+            "a white soap with an initial in it"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a pill with a crack, while also featuring a white soap with an initial in it."
+        ],
+        "target": 50
+    },
+    "data/pill-crack/018.png": {
+        "classname": "pill with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with crack.",
+        "synthetic_caption": [
+            "The picture is of a white soap with a letter in the middle"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a pill with a crack, while the picture also shows a white soap with a letter in the middle."
+        ],
+        "target": 50
+    },
+    "data/pill-crack/023.png": {
+        "classname": "pill with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with crack.",
+        "synthetic_caption": [
+            "this is an image of the letter f in a white, pink and blue soap"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo depicts a pill with crack, while the image in Sentence 2 shows the letter f in a white, pink, and blue soap."
+        ],
+        "target": 50
+    },
+    "data/pill-faulty_imprint/002.png": {
+        "classname": "pill with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with faulty imprint.",
+        "synthetic_caption": [
+            "a white tablet with the word f on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white tablet with a faulty imprint of the letter \"f\" on it."
+        ],
+        "target": 51
+    },
+    "data/pill-faulty_imprint/007.png": {
+        "classname": "pill with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with faulty imprint.",
+        "synthetic_caption": [
+            "the image shows an soap with the letter f on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a pill with a faulty imprint, while the image in Sentence 2 shows a soap with the letter \"f\" on it."
+        ],
+        "target": 51
+    },
+    "data/pill-faulty_imprint/012.png": {
+        "classname": "pill with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with faulty imprint.",
+        "synthetic_caption": [
+            "'f' in a white pill with white lettering"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white pill with white lettering reveals a faulty imprint of the letter 'f'."
+        ],
+        "target": 51
+    },
+    "data/pill-faulty_imprint/017.png": {
+        "classname": "pill with faulty imprint",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with faulty imprint.",
+        "synthetic_caption": [
+            "A white square with the letter f on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white square pill with a faulty imprint of the letter \"f\" on it."
+        ],
+        "target": 51
+    },
+    "data/pill-good/003.png": {
+        "classname": "pill",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill.",
+        "synthetic_caption": [
+            "a white oval with a letter f on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white oval pill with a letter \"f\" on it, showcasing its flawless appearance."
+        ],
+        "target": 52
+    },
+    "data/pill-good/008.png": {
+        "classname": "pill",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill.",
+        "synthetic_caption": [
+            "a white soap bar with letters in red and white"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a flawless white soap bar with red and white letters."
+        ],
+        "target": 52
+    },
+    "data/pill-good/013.png": {
+        "classname": "pill",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill.",
+        "synthetic_caption": [
+            "the image shows the initial f in a white oval on a black background"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a pill without any visible flaws, showcasing an initial \"f\" in a white oval against a black background."
+        ],
+        "target": 52
+    },
+    "data/pill-good/018.png": {
+        "classname": "pill",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill.",
+        "synthetic_caption": [
+            "f is a round shape, the letter is in the middle of the image, with the letter'f'"
+        ],
+        "synthetic_merged_caption": [
+            "In the middle of the image, there is a close-up photo of a round-shaped pill without any faults."
+        ],
+        "target": 52
+    },
+    "data/pill-good/023.png": {
+        "classname": "pill",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill.",
+        "synthetic_caption": [
+            "a white, pink, and red colored f soap"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a flawless white, pink, and red colored pill."
+        ],
+        "target": 52
+    },
+    "data/pill-pill_type/002.png": {
+        "classname": "pill with pill type",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with pill type.",
+        "synthetic_caption": [
+            "the image shows a yellow pill with a letter f on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a yellow pill with a letter \"f\" on it, indicating that it is the wrong type of pill."
+        ],
+        "target": 53
+    },
+    "data/pill-pill_type/007.png": {
+        "classname": "pill with pill type",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with pill type.",
+        "synthetic_caption": [
+            "an image of a white pill with yellow dots"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white pill with yellow dots reveals that it is the wrong type of pill."
+        ],
+        "target": 53
+    },
+    "data/pill-scratch/003.png": {
+        "classname": "pill with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with scratched.",
+        "synthetic_caption": [
+            "ff ff ff ff"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a pill with a scratch reveals detailed real-world information about the condition of the medication."
+        ],
+        "target": 54
+    },
+    "data/pill-scratch/008.png": {
+        "classname": "pill with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with scratched.",
+        "synthetic_caption": [
+            "An image of a white medicine with the letter f"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white medicine pill with a scratch and the letter \"f\" on it."
+        ],
+        "target": 54
+    },
+    "data/pill-scratch/013.png": {
+        "classname": "pill with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with scratched.",
+        "synthetic_caption": [
+            "a white soap with a letter of f in it"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a pill with a scratch, while also containing a white soap with the letter \"f\" in it."
+        ],
+        "target": 54
+    },
+    "data/pill-scratch/018.png": {
+        "classname": "pill with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with scratched.",
+        "synthetic_caption": [
+            "a small white round soap with the letters f"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small white round pill with a scratch and the letters \"f\" on it."
+        ],
+        "target": 54
+    },
+    "data/pill-scratch/023.png": {
+        "classname": "pill with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a pill with scratched.",
+        "synthetic_caption": [
+            "a white pill is shown in the image"
+        ],
+        "synthetic_merged_caption": [
+            "In the image, a close-up photo is shown of a white pill with a scratch."
+        ],
+        "target": 54
+    },
+    "data/screw-good/004.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "the image contains an image of a screw, a hammer and a knife"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a flawless screw, while also featuring a hammer and a knife in the image."
+        ],
+        "target": 55
+    },
+    "data/screw-good/009.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "A square head screw sitting on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a square head screw without any faults, sitting on a white surface."
+        ],
+        "target": 55
+    },
+    "data/screw-good/014.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "A screw sitting on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw without faults shows the screw sitting on a white surface."
+        ],
+        "target": 55
+    },
+    "data/screw-good/019.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "A steel screw is shown on white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a steel screw without any faults is shown on a white background."
+        ],
+        "target": 55
+    },
+    "data/screw-good/024.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "A stainless steel screw on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "On a white surface, there is a close-up photo of a stainless steel screw that is free from any faults."
+        ],
+        "target": 55
+    },
+    "data/screw-good/029.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "A screw is sitting on top of a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw without faults reveals it sitting on top of a white surface."
+        ],
+        "target": 55
+    },
+    "data/screw-good/034.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "a screw is shown on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw without faults is shown on a white background."
+        ],
+        "target": 55
+    },
+    "data/screw-good/039.png": {
+        "classname": "screw",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw.",
+        "synthetic_caption": [
+            "metal screw with metal cap on white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal screw with a metal cap on a white background, showcasing its flawless condition."
+        ],
+        "target": 55
+    },
+    "data/screw-manipulated_front/003.png": {
+        "classname": "screw with manipulated front",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with manipulated front.",
+        "synthetic_caption": [
+            "The screw is sitting on a white table"
+        ],
+        "synthetic_merged_caption": [
+            "On a white table, there is a close-up photo of a screw with a manipulated front."
+        ],
+        "target": 56
+    },
+    "data/screw-manipulated_front/008.png": {
+        "classname": "screw with manipulated front",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with manipulated front.",
+        "synthetic_caption": [
+            "A screw on a surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw on a surface with a manipulated front."
+        ],
+        "target": 56
+    },
+    "data/screw-manipulated_front/013.png": {
+        "classname": "screw with manipulated front",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with manipulated front.",
+        "synthetic_caption": [
+            "a metal screw that is pointing down"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal screw with a manipulated front, pointing downwards."
+        ],
+        "target": 56
+    },
+    "data/screw-manipulated_front/018.png": {
+        "classname": "screw with manipulated front",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with manipulated front.",
+        "synthetic_caption": [
+            "The screw in the picture is a metal screw"
+        ],
+        "synthetic_merged_caption": [
+            "In the close-up photo, there is a metal screw with a manipulated front."
+        ],
+        "target": 56
+    },
+    "data/screw-manipulated_front/023.png": {
+        "classname": "screw with manipulated front",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with manipulated front.",
+        "synthetic_caption": [
+            "An image of an angled screw with a head"
+        ],
+        "synthetic_merged_caption": [
+            "that has been modified."
+        ],
+        "target": 56
+    },
+    "data/screw-scratch_head/004.png": {
+        "classname": "screw with scratched head",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched head.",
+        "synthetic_caption": [
+            "A picture of a single shaped screw on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with a scratched head is depicted on a white background."
+        ],
+        "target": 57
+    },
+    "data/screw-scratch_head/009.png": {
+        "classname": "screw with scratched head",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched head.",
+        "synthetic_caption": [
+            "a screw with a head on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with a scratched head is depicted on a white background."
+        ],
+        "target": 57
+    },
+    "data/screw-scratch_head/014.png": {
+        "classname": "screw with scratched head",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched head.",
+        "synthetic_caption": [
+            "a screw in a small metal base"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with a scratched head is shown, which is mounted on a small metal base."
+        ],
+        "target": 57
+    },
+    "data/screw-scratch_head/019.png": {
+        "classname": "screw with scratched head",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched head.",
+        "synthetic_caption": [
+            "A black and white image of a screw with metal head on a surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with a scratched metal head is depicted in the black and white image."
+        ],
+        "target": 57
+    },
+    "data/screw-scratch_neck/000.png": {
+        "classname": "screw with scratched neck",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched neck.",
+        "synthetic_caption": [
+            "a small screw on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small screw with a scratch neck is captured on a white surface."
+        ],
+        "target": 58
+    },
+    "data/screw-scratch_neck/005.png": {
+        "classname": "screw with scratched neck",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched neck.",
+        "synthetic_caption": [
+            "an image of a screw on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with a scratch neck is depicted on a white surface."
+        ],
+        "target": 58
+    },
+    "data/screw-scratch_neck/010.png": {
+        "classname": "screw with scratched neck",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched neck.",
+        "synthetic_caption": [
+            "A metal screw is shown on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a metal screw with a scratch neck is shown on a white background."
+        ],
+        "target": 58
+    },
+    "data/screw-scratch_neck/015.png": {
+        "classname": "screw with scratched neck",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched neck.",
+        "synthetic_caption": [
+            "a screw that is sitting on a wooden surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with a scratched neck is shown, as it sits on a wooden surface."
+        ],
+        "target": 58
+    },
+    "data/screw-scratch_neck/020.png": {
+        "classname": "screw with scratched neck",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with scratched neck.",
+        "synthetic_caption": [
+            "a small metal screw on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small metal screw with a scratch neck is captured on a white background."
+        ],
+        "target": 58
+    },
+    "data/screw-thread_side/000.png": {
+        "classname": "screw with thread side",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread side.",
+        "synthetic_caption": [
+            "image of an item that is on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with thread side is shown on a white surface."
+        ],
+        "target": 59
+    },
+    "data/screw-thread_side/005.png": {
+        "classname": "screw with thread side",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread side.",
+        "synthetic_caption": [
+            "a silver screw on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a silver screw with thread side is captured on a white surface."
+        ],
+        "target": 59
+    },
+    "data/screw-thread_side/010.png": {
+        "classname": "screw with thread side",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread side.",
+        "synthetic_caption": [
+            "a silver screw is sitting on top of a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "On a white surface, there is a close-up photo of a silver screw with its thread side visible."
+        ],
+        "target": 59
+    },
+    "data/screw-thread_side/015.png": {
+        "classname": "screw with thread side",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread side.",
+        "synthetic_caption": [
+            "The image is a photo of a screw with a metal head on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a screw with a metal head and visible thread side."
+        ],
+        "target": 59
+    },
+    "data/screw-thread_side/020.png": {
+        "classname": "screw with thread side",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread side.",
+        "synthetic_caption": [
+            "The image shows a screw in white on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a screw with thread side, showcasing its intricate details, while being captured against a white surface."
+        ],
+        "target": 59
+    },
+    "data/screw-thread_top/002.png": {
+        "classname": "screw with thread top",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread top.",
+        "synthetic_caption": [
+            "A small nailed screw on a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "On a white surface, there is a close-up photo of a small screw with a threaded top."
+        ],
+        "target": 60
+    },
+    "data/screw-thread_top/007.png": {
+        "classname": "screw with thread top",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread top.",
+        "synthetic_caption": [
+            "the screws is on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a screw with a threaded top is captured on a white background."
+        ],
+        "target": 60
+    },
+    "data/screw-thread_top/012.png": {
+        "classname": "screw with thread top",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread top.",
+        "synthetic_caption": [
+            "An image of a steel screw on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a steel screw with thread on a white background."
+        ],
+        "target": 60
+    },
+    "data/screw-thread_top/017.png": {
+        "classname": "screw with thread top",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread top.",
+        "synthetic_caption": [
+            "a large silver screw sits on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "On a white background, there is a close-up photo of a large silver screw with a threaded top."
+        ],
+        "target": 60
+    },
+    "data/screw-thread_top/022.png": {
+        "classname": "screw with thread top",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a screw with thread top.",
+        "synthetic_caption": [
+            "a screw is lying on top of a white surface"
+        ],
+        "synthetic_merged_caption": [
+            "On a white surface, there is a close-up photo of a screw with a threaded top."
+        ],
+        "target": 60
+    },
+    "data/tile-crack/004.png": {
+        "classname": "tile with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with crack.",
+        "synthetic_caption": [
+            "a tile with black spots and a white hole in it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile with black spots, a white hole, and a crack."
+        ],
+        "target": 61
+    },
+    "data/tile-crack/009.png": {
+        "classname": "tile with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with crack.",
+        "synthetic_caption": [
+            "It shows a cracked ceramic tile with a dark spot"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a cracked ceramic tile reveals a dark spot."
+        ],
+        "target": 61
+    },
+    "data/tile-crack/014.png": {
+        "classname": "tile with crack",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with crack.",
+        "synthetic_caption": [
+            "i have been trying to clean this, but i cannot find the right surface, the image does not show the surface, how about you"
+        ],
+        "synthetic_merged_caption": [
+            "I have been trying to clean this tile with a crack, but I cannot find the right surface. The close-up photo does not show the surface clearly. How about you?"
+        ],
+        "target": 61
+    },
+    "data/tile-glue_strip/002.png": {
+        "classname": "tile with glue strip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with glue strip.",
+        "synthetic_caption": [
+            "A gray and black background of a wall surface with white dots"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile with a glue strip reveals a gray and black background of a wall surface adorned with white dots."
+        ],
+        "target": 62
+    },
+    "data/tile-glue_strip/007.png": {
+        "classname": "tile with glue strip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with glue strip.",
+        "synthetic_caption": [
+            "a close up of a tile surface with a patch of white dots"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile surface reveals the presence of a glue strip, while also showcasing a patch of white dots."
+        ],
+        "target": 62
+    },
+    "data/tile-glue_strip/012.png": {
+        "classname": "tile with glue strip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with glue strip.",
+        "synthetic_caption": [
+            "a small piece of paper on a black granite tile"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a tile with a glue strip, while also capturing a small piece of paper resting on the black granite surface."
+        ],
+        "target": 62
+    },
+    "data/tile-glue_strip/017.png": {
+        "classname": "tile with glue strip",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with glue strip.",
+        "synthetic_caption": [
+            "a black, white, and ethereal image of a speck on top of a stone"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile with a glue strip reveals a black, white, and ethereal image of a speck on top of a stone."
+        ],
+        "target": 62
+    },
+    "data/tile-good/004.png": {
+        "classname": "tile",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile.",
+        "synthetic_caption": [
+            "cyrus xps black / greige - 2\"x16\" tiles-in-box"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile without faults, specifically the Cyrus XPS Black/Greige - 2\"x16\" tiles-in-box."
+        ],
+        "target": 63
+    },
+    "data/tile-good/009.png": {
+        "classname": "tile",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile.",
+        "synthetic_caption": [
+            "a black and white close up"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black and white tile without any faults."
+        ],
+        "target": 63
+    },
+    "data/tile-good/014.png": {
+        "classname": "tile",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile.",
+        "synthetic_caption": [
+            "with black and white splatters"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile without faults, featuring black and white splatters."
+        ],
+        "target": 63
+    },
+    "data/tile-good/019.png": {
+        "classname": "tile",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile.",
+        "synthetic_caption": [
+            "a black and white tile with splatters"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black and white tile without any faults, including splatters."
+        ],
+        "target": 63
+    },
+    "data/tile-good/024.png": {
+        "classname": "tile",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile.",
+        "synthetic_caption": [
+            "scotch bl080xlt"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile without any visible faults, such as cracks or chips, showcases its pristine condition."
+        ],
+        "target": 63
+    },
+    "data/tile-good/029.png": {
+        "classname": "tile",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile.",
+        "synthetic_caption": [
+            "the image is of an art gallery that has black spots"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a flawless tile, while the image depicts an art gallery with black spots."
+        ],
+        "target": 63
+    },
+    "data/tile-gray_stroke/001.png": {
+        "classname": "tile with gray stroke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with gray stroke.",
+        "synthetic_caption": [
+            "black speckled granite tidal wave tile pattern"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black speckled granite tidal wave tile pattern with gray strokes."
+        ],
+        "target": 64
+    },
+    "data/tile-gray_stroke/006.png": {
+        "classname": "tile with gray stroke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with gray stroke.",
+        "synthetic_caption": [
+            "this is a close up image of a white and black pattern"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a tile with a gray stroke, revealing intricate details in its design."
+        ],
+        "target": 64
+    },
+    "data/tile-gray_stroke/011.png": {
+        "classname": "tile with gray stroke",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with gray stroke.",
+        "synthetic_caption": [
+            "on the ice"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile with a gray stroke on the ice."
+        ],
+        "target": 64
+    },
+    "data/tile-oil/000.png": {
+        "classname": "tile with oil",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with oil.",
+        "synthetic_caption": [
+            "a goldfish with black spots in a gray area surrounded by black squares"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a tile with oil, while a goldfish with black spots can be seen in a gray area surrounded by black squares."
+        ],
+        "target": 65
+    },
+    "data/tile-oil/005.png": {
+        "classname": "tile with oil",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with oil.",
+        "synthetic_caption": [
+            "the color of the surface is black and grey"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile with oil reveals a surface that is predominantly black and grey in color."
+        ],
+        "target": 65
+    },
+    "data/tile-oil/010.png": {
+        "classname": "tile with oil",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with oil.",
+        "synthetic_caption": [
+            "There is a water drop on the surface of a tile"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals the presence of oil on the surface of a tile, while also capturing a water drop."
+        ],
+        "target": 65
+    },
+    "data/tile-oil/015.png": {
+        "classname": "tile with oil",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with oil.",
+        "synthetic_caption": [
+            "black cat in the white and grey"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile with oil reveals intricate details, while a black cat stands out against the backdrop of white and grey."
+        ],
+        "target": 65
+    },
+    "data/tile-rough/002.png": {
+        "classname": "tile with rough",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with rough.",
+        "synthetic_caption": [
+            "the surface of the image has spots on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo of a tile with rough surface exhibits spots on it."
+        ],
+        "target": 66
+    },
+    "data/tile-rough/007.png": {
+        "classname": "tile with rough",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with rough.",
+        "synthetic_caption": [
+            "There is a white object with a pattern of a blackish brown color"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, there is a white object with a pattern of a blackish brown color, resembling a tile with rough texture."
+        ],
+        "target": 66
+    },
+    "data/tile-rough/012.png": {
+        "classname": "tile with rough",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a tile with rough.",
+        "synthetic_caption": [
+            "The tile features a black and white pattern"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a tile with a rough texture reveals a detailed black and white pattern."
+        ],
+        "target": 66
+    },
+    "data/toothbrush-defective/002.png": {
+        "classname": "defective toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a defective toothbrush.",
+        "synthetic_caption": [
+            "a white toothbrush with blue hair on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white toothbrush with blue hair on it reveals a defective brush."
+        ],
+        "target": 67
+    },
+    "data/toothbrush-defective/007.png": {
+        "classname": "defective toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a defective toothbrush.",
+        "synthetic_caption": [
+            "a toothbrush that is covered with some flowers"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a toothbrush with a defective brush is depicted, while also being adorned with some flowers."
+        ],
+        "target": 67
+    },
+    "data/toothbrush-defective/012.png": {
+        "classname": "defective toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a defective toothbrush.",
+        "synthetic_caption": [
+            "a red and white toothbrush with a black background"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a red and white toothbrush with a defective brush is captured against a black background."
+        ],
+        "target": 67
+    },
+    "data/toothbrush-defective/017.png": {
+        "classname": "defective toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a defective toothbrush.",
+        "synthetic_caption": [
+            "This image of a white plastic brush containing small red hairs is from a photographic collection of nicolas schaeffer, dr martha w"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo from Nicolas Schaeffer's photographic collection shows a white plastic toothbrush with a defective brush, which also contains small red hairs."
+        ],
+        "target": 67
+    },
+    "data/toothbrush-defective/022.png": {
+        "classname": "defective toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a defective toothbrush.",
+        "synthetic_caption": [
+            "A white toothbrush with yellow hair on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a white toothbrush reveals a defective brush with yellow hair on it."
+        ],
+        "target": 67
+    },
+    "data/toothbrush-defective/027.png": {
+        "classname": "defective toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a defective toothbrush.",
+        "synthetic_caption": [
+            "the image shows a toothbrush with small white and yellow flowers on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a toothbrush with a defective brush, while also showcasing small white and yellow flowers on it."
+        ],
+        "target": 67
+    },
+    "data/toothbrush-good/002.png": {
+        "classname": "toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a toothbrush.",
+        "synthetic_caption": [
+            "this is a picture of a toothbrush with a lot of little white flower petals on it"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a toothbrush that is flawless, while also featuring delicate white flower petals."
+        ],
+        "target": 68
+    },
+    "data/toothbrush-good/007.png": {
+        "classname": "toothbrush",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a toothbrush.",
+        "synthetic_caption": [
+            "The brush has black spots on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo of a toothbrush reveals its flawless appearance, while also highlighting the presence of black spots on the brush."
+        ],
+        "target": 68
+    },
+    "data/transistor-bent_lead/000.png": {
+        "classname": "transistor with bent lead",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor with bent lead.",
+        "synthetic_caption": [
+            "photo voltaic power transistor in a copper metal surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor with a bent lead showcases a photo voltaic power transistor on a copper metal surface."
+        ],
+        "target": 69
+    },
+    "data/transistor-bent_lead/005.png": {
+        "classname": "transistor with bent lead",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor with bent lead.",
+        "synthetic_caption": [
+            "A small electronic thyristor with two copper strips is shown"
+        ],
+        "synthetic_merged_caption": [
+            "in a close-up photo, revealing a transistor with a bent lead and two copper strips."
+        ],
+        "target": 69
+    },
+    "data/transistor-cut_lead/000.png": {
+        "classname": "transistor with cut lead",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor with cut lead.",
+        "synthetic_caption": [
+            "the tc-to-hc ohm resistor"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor with a cut lead reveals the tc-to-hc ohm resistor."
+        ],
+        "target": 70
+    },
+    "data/transistor-cut_lead/005.png": {
+        "classname": "transistor with cut lead",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor with cut lead.",
+        "synthetic_caption": [
+            "a metal device with a metal cover is on a pebbled surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor with a cut lead reveals a metal device with a metal cover resting on a pebbled surface."
+        ],
+        "target": 70
+    },
+    "data/transistor-damaged_case/000.png": {
+        "classname": "transistor with damaged case",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor with damaged case.",
+        "synthetic_caption": [
+            "image of a digital switch on the circuit board"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor with a damaged case reveals a digital switch on the circuit board."
+        ],
+        "target": 71
+    },
+    "data/transistor-damaged_case/005.png": {
+        "classname": "transistor with damaged case",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor with damaged case.",
+        "synthetic_caption": [
+            "smtv signal for neolithium-ion battery"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor with a damaged case reveals potential issues with the device, while the smtv signal indicates the presence of neolithium-ion battery technology."
+        ],
+        "target": 71
+    },
+    "data/transistor-good/000.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "There are dots on the plastic part of the photo"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor without faults reveals the presence of dots on the plastic part."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/005.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "a large piece of metal with several small pins"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor without faults reveals a large piece of metal with several small pins."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/010.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "A single electronic component is shown in a red frame"
+        ],
+        "synthetic_merged_caption": [
+            "In a close-up photo, a single electronic component is shown without any faults, enclosed within a red frame."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/015.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "a small metal component is sitting on a brown plate"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small metal component sitting on a brown plate reveals a transistor without any faults."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/020.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "An image showing a circuit board with an electronic ac voltage regulator on top of it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a circuit board with an electronic AC voltage regulator on top of it, showcasing a transistor without any faults."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/025.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "image of a electronic component with holes on the pc board"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor without faults reveals an electronic component with holes on the PC board."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/030.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "the ti tsv rdt20 is shown on a metal plate"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of the TI TSV RDT20 transistor, which is shown on a metal plate, reveals its flawless condition."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/035.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "this image contains an image of an old transistor in it's original state"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a transistor in its original state, free from any faults."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/040.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "The electrical component is sitting on the metal shelf"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor without faults reveals the electrical component resting on a metal shelf."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/045.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "a small tf-taf transistor is sitting on the surface"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a small tf-taf transistor without any faults is sitting on the surface."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/050.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "The electronic component is displayed on a brown plastic plate"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor without faults is displayed on a brown plastic plate."
+        ],
+        "target": 72
+    },
+    "data/transistor-good/055.png": {
+        "classname": "transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a transistor.",
+        "synthetic_caption": [
+            "a power supply"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a transistor without faults, along with a power supply."
+        ],
+        "target": 72
+    },
+    "data/transistor-misplaced/000.png": {
+        "classname": "missing transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a missing transistor.",
+        "synthetic_caption": [
+            "the image shows a power transistor"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a power transistor that is fully missing."
+        ],
+        "target": 73
+    },
+    "data/transistor-misplaced/005.png": {
+        "classname": "missing transistor",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a missing transistor.",
+        "synthetic_caption": [
+            "on the image of an op amp with two pins"
+        ],
+        "synthetic_merged_caption": [
+            "In the close-up photo, it is evident that a transistor is completely missing, while the image also shows an op amp with two pins."
+        ],
+        "target": 73
+    },
+    "data/wood-color/000.png": {
+        "classname": "wood with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with colored spots.",
+        "synthetic_caption": [
+            "a pair of finger prints on wood"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of wood with coloration reveals the presence of a pair of fingerprints."
+        ],
+        "target": 74
+    },
+    "data/wood-color/005.png": {
+        "classname": "wood with colored spots",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with colored spots.",
+        "synthetic_caption": [
+            "a close up of a wooden table with blue dots on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wooden table with coloration, including blue dots."
+        ],
+        "target": 74
+    },
+    "data/wood-combined/002.png": {
+        "classname": "wood with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with combined.",
+        "synthetic_caption": [
+            "small wooden squares"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of small wooden squares combined together."
+        ],
+        "target": 75
+    },
+    "data/wood-combined/007.png": {
+        "classname": "wood with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with combined.",
+        "synthetic_caption": [
+            "close up red dots on wood"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wood with combined red dots."
+        ],
+        "target": 75
+    },
+    "data/wood-good/001.png": {
+        "classname": "wood",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood.",
+        "synthetic_caption": [
+            "a close up of a wood table"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a flawless wood table."
+        ],
+        "target": 76
+    },
+    "data/wood-good/006.png": {
+        "classname": "wood",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood.",
+        "synthetic_caption": [
+            "of a wooden texture with smooth lines"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wooden texture with smooth lines reveals a flawless wood surface."
+        ],
+        "target": 76
+    },
+    "data/wood-good/011.png": {
+        "classname": "wood",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood.",
+        "synthetic_caption": [
+            "the image shows a wood surface in a wooden house"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a flawless wood surface within a wooden house."
+        ],
+        "target": 76
+    },
+    "data/wood-good/016.png": {
+        "classname": "wood",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood.",
+        "synthetic_caption": [
+            "- the texture of wood - a close up close shot of a wooden surface - the color of the wood is brown"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a flawless wooden surface reveals its texture and brown color."
+        ],
+        "target": 76
+    },
+    "data/wood-hole/002.png": {
+        "classname": "wood with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with hole.",
+        "synthetic_caption": [
+            "close up of hole in wood - wpt175"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wood with a hole, specifically identified as wpt175."
+        ],
+        "target": 77
+    },
+    "data/wood-hole/007.png": {
+        "classname": "wood with hole",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with hole.",
+        "synthetic_caption": [
+            "with a black background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wooden surface with a visible hole, set against a black background."
+        ],
+        "target": 77
+    },
+    "data/wood-liquid/002.png": {
+        "classname": "wood with liquid",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with liquid.",
+        "synthetic_caption": [
+            "the texture is textured like a wood surface"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo showcases a wood surface with a textured appearance."
+        ],
+        "target": 78
+    },
+    "data/wood-liquid/007.png": {
+        "classname": "wood with liquid",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with liquid.",
+        "synthetic_caption": [
+            "a small, round patch on the surface of the wood"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo reveals a small, round patch on the surface of the wood, which appears to be covered in liquid."
+        ],
+        "target": 78
+    },
+    "data/wood-scratch/002.png": {
+        "classname": "wood with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with scratched.",
+        "synthetic_caption": [
+            "it shows a crack on a wooden surface"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a wooden surface with a visible scratch or crack."
+        ],
+        "target": 79
+    },
+    "data/wood-scratch/007.png": {
+        "classname": "wood with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with scratched.",
+        "synthetic_caption": [
+            "- this image was taken from a camera"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo was taken from a camera, capturing a detailed view of a wooden surface with a visible scratch."
+        ],
+        "target": 79
+    },
+    "data/wood-scratch/012.png": {
+        "classname": "wood with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with scratched.",
+        "synthetic_caption": [
+            "close up of a wood with scratches"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wooden surface with visible scratches."
+        ],
+        "target": 79
+    },
+    "data/wood-scratch/017.png": {
+        "classname": "wood with scratched",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a wood with scratched.",
+        "synthetic_caption": [
+            "scratched surface with wood grain and a small dot on the background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a wood surface with a scratch, showcasing the intricate wood grain and a small dot in the background."
+        ],
+        "target": 79
+    },
+    "data/zipper-broken_teeth/001.png": {
+        "classname": "zipper with broken teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with broken teeth.",
+        "synthetic_caption": [
+            "Close up image of a black zipper, with metal teeth and white stripe"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with metal teeth and a white stripe, revealing broken teeth."
+        ],
+        "target": 80
+    },
+    "data/zipper-broken_teeth/006.png": {
+        "classname": "zipper with broken teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with broken teeth.",
+        "synthetic_caption": [
+            "A picture of a zipper that is black"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with broken teeth."
+        ],
+        "target": 80
+    },
+    "data/zipper-broken_teeth/011.png": {
+        "classname": "zipper with broken teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with broken teeth.",
+        "synthetic_caption": [
+            "a black zipper with an open end on the right side"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with broken teeth and an open end on the right side."
+        ],
+        "target": 80
+    },
+    "data/zipper-broken_teeth/016.png": {
+        "classname": "zipper with broken teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with broken teeth.",
+        "synthetic_caption": [
+            "a black zipper with an open top"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with broken teeth and an open top."
+        ],
+        "target": 80
+    },
+    "data/zipper-combined/002.png": {
+        "classname": "zipper with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with combined.",
+        "synthetic_caption": [
+            "black zipper with gold zipper"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a combined black and gold zipper."
+        ],
+        "target": 81
+    },
+    "data/zipper-combined/007.png": {
+        "classname": "zipper with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with combined.",
+        "synthetic_caption": [
+            "Close up of a black zipper with a silver and black strip"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with a silver and black strip, showcasing its combined design."
+        ],
+        "target": 81
+    },
+    "data/zipper-combined/012.png": {
+        "classname": "zipper with combined",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with combined.",
+        "synthetic_caption": [
+            "a zipper is a black zipper, with two open ends"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with two open ends, showcasing its combined design."
+        ],
+        "target": 81
+    },
+    "data/zipper-fabric_border/001.png": {
+        "classname": "zipper with fabric border",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with fabric border.",
+        "synthetic_caption": [
+            "The black zipper lays flat against a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with a fabric border shows it laying flat against a white background."
+        ],
+        "target": 82
+    },
+    "data/zipper-fabric_border/006.png": {
+        "classname": "zipper with fabric border",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with fabric border.",
+        "synthetic_caption": [
+            "a black zipper with a black zipper and an opening"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with a fabric border and an opening."
+        ],
+        "target": 82
+    },
+    "data/zipper-fabric_border/011.png": {
+        "classname": "zipper with fabric border",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with fabric border.",
+        "synthetic_caption": [
+            "Zippered black zipper with two metal parts on it"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a zippered black zipper with two metal parts on it, showcasing a fabric border."
+        ],
+        "target": 82
+    },
+    "data/zipper-fabric_border/016.png": {
+        "classname": "zipper with fabric border",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with fabric border.",
+        "synthetic_caption": [
+            "The black zipper has an open top and bottom"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with a fabric border reveals an open top and bottom."
+        ],
+        "target": 82
+    },
+    "data/zipper-fabric_interior/004.png": {
+        "classname": "zipper with fabric interior",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with fabric interior.",
+        "synthetic_caption": [
+            "An image showing a black zipper with the metal closure on the outside"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with the metal closure on the outside, revealing its fabric interior."
+        ],
+        "target": 83
+    },
+    "data/zipper-fabric_interior/009.png": {
+        "classname": "zipper with fabric interior",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with fabric interior.",
+        "synthetic_caption": [
+            "Close up of black zippers, on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of black zippers with fabric interior is captured on a white background."
+        ],
+        "target": 83
+    },
+    "data/zipper-fabric_interior/014.png": {
+        "classname": "zipper with fabric interior",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with fabric interior.",
+        "synthetic_caption": [
+            "black nylon zipper - oc - 003x"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black nylon zipper with a fabric interior, labeled as \"oc - 003x\"."
+        ],
+        "target": 83
+    },
+    "data/zipper-good/003.png": {
+        "classname": "zipper",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper.",
+        "synthetic_caption": [
+            "The zipper is a black metal zipper with several metal rings"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black metal zipper with several metal rings, showcasing its flawless design."
+        ],
+        "target": 84
+    },
+    "data/zipper-good/008.png": {
+        "classname": "zipper",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper.",
+        "synthetic_caption": [
+            "An image of black zippers with a plastic zipper and metal zipper pull"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a zipper without faults reveals both black zippers, one with a plastic zipper and the other with a metal zipper pull."
+        ],
+        "target": 84
+    },
+    "data/zipper-good/013.png": {
+        "classname": "zipper",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper.",
+        "synthetic_caption": [
+            "The image is showing a black zipper on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a flawless black zipper against a white background."
+        ],
+        "target": 84
+    },
+    "data/zipper-good/018.png": {
+        "classname": "zipper",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper.",
+        "synthetic_caption": [
+            "The image shows a black zipper with a black zipper on it"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a flawless black zipper."
+        ],
+        "target": 84
+    },
+    "data/zipper-good/023.png": {
+        "classname": "zipper",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper.",
+        "synthetic_caption": [
+            "- a black zipper, with a black center"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with a black center, showcasing its flawless design."
+        ],
+        "target": 84
+    },
+    "data/zipper-good/028.png": {
+        "classname": "zipper",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper.",
+        "synthetic_caption": [
+            "A black zipper on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper on a white background, showcasing its flawless design."
+        ],
+        "target": 84
+    },
+    "data/zipper-rough/001.png": {
+        "classname": "zipper with rough",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with rough.",
+        "synthetic_caption": [
+            "a zipper for a bike"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a rough zipper, specifically designed for a bike."
+        ],
+        "target": 85
+    },
+    "data/zipper-rough/006.png": {
+        "classname": "zipper with rough",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with rough.",
+        "synthetic_caption": [
+            "The black zipper is open and closed"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with rough texture shows it in both open and closed positions."
+        ],
+        "target": 85
+    },
+    "data/zipper-rough/011.png": {
+        "classname": "zipper with rough",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with rough.",
+        "synthetic_caption": [
+            "close up of a black zipper on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with rough texture is captured on a white background."
+        ],
+        "target": 85
+    },
+    "data/zipper-rough/016.png": {
+        "classname": "zipper with rough",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with rough.",
+        "synthetic_caption": [
+            "the image shows a zipper in black"
+        ],
+        "synthetic_merged_caption": [
+            "The close-up photo depicts a black zipper with a rough texture."
+        ],
+        "target": 85
+    },
+    "data/zipper-split_teeth/004.png": {
+        "classname": "zipper with split teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with split teeth.",
+        "synthetic_caption": [
+            "black zipper on a white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with split teeth is shown on a white background."
+        ],
+        "target": 86
+    },
+    "data/zipper-split_teeth/009.png": {
+        "classname": "zipper with split teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with split teeth.",
+        "synthetic_caption": [
+            "This is a picture of a zipper that is black"
+        ],
+        "synthetic_merged_caption": [
+            "This close-up photo showcases a zipper with split teeth, which is black in color."
+        ],
+        "target": 86
+    },
+    "data/zipper-split_teeth/014.png": {
+        "classname": "zipper with split teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with split teeth.",
+        "synthetic_caption": [
+            "an image showing a black zipper"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with split teeth is shown."
+        ],
+        "target": 86
+    },
+    "data/zipper-squeezed_teeth/001.png": {
+        "classname": "zipper with squeezed teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with squeezed teeth.",
+        "synthetic_caption": [
+            "An image showing the black zip"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zip with squeezed teeth is shown."
+        ],
+        "target": 87
+    },
+    "data/zipper-squeezed_teeth/006.png": {
+        "classname": "zipper with squeezed teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with squeezed teeth.",
+        "synthetic_caption": [
+            "black zipper on white background"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with squeezed teeth is shown on a white background."
+        ],
+        "target": 87
+    },
+    "data/zipper-squeezed_teeth/011.png": {
+        "classname": "zipper with squeezed teeth",
+        "default_caption": null,
+        "primer_caption": "A close-up photo of a zipper with squeezed teeth.",
+        "synthetic_caption": [
+            "An image showing a zipper that is black"
+        ],
+        "synthetic_merged_caption": [
+            "A close-up photo of a black zipper with squeezed teeth is shown."
+        ],
+        "target": 87
+    }
+}
