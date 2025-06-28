@@ -6,6 +6,7 @@
 import json
 import os
 import time
+import copy
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -81,6 +82,7 @@ def train(
     """
     global_counter = 0
     starting_task = 0
+    training_stats = []
 
     # If checkpointing is turned on, will search for possible existing checkpoint to resume from there.
     wandb_run_id = None
@@ -106,6 +108,19 @@ def train(
 
     if hasattr(continual_learner, 'begin_training'):
         continual_learner.begin_training(experiment)
+    
+    # Store initial models for CLIP score computation
+    initial_backbone = copy.deepcopy(continual_learner.backbone.module).eval()
+    initial_text_encoder = None
+    initial_tokenizer = None
+    if hasattr(continual_learner.head.module, 'text_encoder'):
+        initial_text_encoder = copy.deepcopy(continual_learner.head.module.text_encoder).eval()
+        initial_tokenizer = continual_learner.head.module.tokenizer
+    
+    # print("initial_backbone:\n",initial_backbone)
+    # print("initial_text_encoder:\n", initial_text_encoder)
+    # print("initial_tokenizer:\n", initial_tokenizer)
+    # raise ValueError("Initial models are set up, but training is not implemented yet. Please implement the training loop.")
 
     # Measure initial zero-shot performance. For non-pretrained models, should be ~ 1/#classes.
     if evaluator.pre_train_results is None:
@@ -191,34 +206,92 @@ def train(
                 if div > 1:
                     update_pretrain_batch_size = experiment.task_buffer_batch_size // div
                     ### Grab DataComp dataloader if possible
+                    datacomp_loader = None
                     if args.experiment.task.pretraining_batch_size > 0:
-                        termcolor.cprint("\n> Setting up first-task DataComp Loader", "white", attrs=["bold"])
-                        assert args.experiment.dataset.pretraining_data_path is not None, 'The data-mixture suggests to use pretraining-data in the training mixture, but args.experiment.dataset.pretraining_data_path is not set!'
-                        datacomp_loader = data_lib.get_datacomp_loader(
-                            args,
-                            train_transform=args.experiment.dataset.train_transforms,
-                            train_batch_size=args.experiment.task.pretraining_batch_size + update_pretrain_batch_size,
-                            custom_seed=task * 100000 + args.experiment.seed + 1
-                        ) if args.experiment.dataset.pretraining_data_path is not None else None
-                    datacomp_loader = cycle(datacomp_loader)
+                    #     termcolor.cprint("\n> Setting up first-task DataComp Loader", "white", attrs=["bold"])
+                    #     assert args.experiment.dataset.pretraining_data_path is not None, 'The data-mixture suggests to use pretraining-data in the training mixture, but args.experiment.dataset.pretraining_data_path is not set!'
+                    #     datacomp_loader = data_lib.get_datacomp_loader(
+                    #         args,
+                    #         train_transform=args.experiment.dataset.train_transforms,
+                    #         train_batch_size=args.experiment.task.pretraining_batch_size + update_pretrain_batch_size,
+                    #         custom_seed=task * 100000 + args.experiment.seed + 1
+                    #     ) if args.experiment.dataset.pretraining_data_path is not None else None
+                    # datacomp_loader = cycle(datacomp_loader)
+                        if args.experiment.dataset.pretraining_data_path is not None:
+                            datacomp_root = args.experiment.dataset.pretraining_data_path
+                            tar_files = [x for x in os.listdir(datacomp_root) if x.endswith('.tar')]
+                            if len(tar_files) > 0:
+                                termcolor.cprint("\n> Setting up first-task DataComp Loader", "white", attrs=["bold"])
+                                datacomp_loader = data_lib.get_datacomp_loader(
+                                    args,
+                                    train_transform=args.experiment.dataset.train_transforms,
+                                    train_batch_size=args.experiment.task.pretraining_batch_size + update_pretrain_batch_size,
+                                    custom_seed=task * 100000 + args.experiment.seed + 1
+                                )
+                            else:
+                                termcolor.cprint(
+                                    f"Warning: no DataComp tar files found in {datacomp_root}. Skipping pretraining data.",
+                                    "yellow"
+                                )
+                        else:
+                            termcolor.cprint(
+                                "Warning: pretraining batch size > 0 but no pretraining data path is set. Skipping pretraining data.",
+                                "yellow"
+                            )
+                    if datacomp_loader is not None:
+                        datacomp_loader = cycle(datacomp_loader)
                                         
             elif task == 1:  # potentially just set to >= 1 for full replication.
                 experiment.task_batch_size = args.experiment.task.update_pool_batch_size
                 if args.experiment.task.pretraining_batch_size > 0:
-                    termcolor.cprint("\n> Setting up final DataComp Loader", "white", attrs=["bold"])
-                    datacomp_loader = data_lib.get_datacomp_loader(
-                        args,
-                        train_transform=args.experiment.dataset.train_transforms,
-                        train_batch_size=args.experiment.task.pretraining_batch_size,
-                        custom_seed=task * 100000 + args.experiment.seed + 1
-                    ) if args.experiment.dataset.pretraining_data_path is not None else None
-                    datacomp_loader = cycle(datacomp_loader)
+                    # termcolor.cprint("\n> Setting up final DataComp Loader", "white", attrs=["bold"])
+                    # datacomp_loader = data_lib.get_datacomp_loader(
+                    #     args,
+                    #     train_transform=args.experiment.dataset.train_transforms,
+                    #     train_batch_size=args.experiment.task.pretraining_batch_size,
+                    #     custom_seed=task * 100000 + args.experiment.seed + 1
+                    # ) if args.experiment.dataset.pretraining_data_path is not None else None
+                    # datacomp_loader = cycle(datacomp_loader)
+                    if args.experiment.dataset.pretraining_data_path is not None:
+                        datacomp_root = args.experiment.dataset.pretraining_data_path
+                        tar_files = [x for x in os.listdir(datacomp_root) if x.endswith('.tar')]
+                        if len(tar_files) > 0:
+                            termcolor.cprint("\n> Setting up final DataComp Loader", "white", attrs=["bold"])
+                            datacomp_loader = data_lib.get_datacomp_loader(
+                                args,
+                                train_transform=args.experiment.dataset.train_transforms,
+                                train_batch_size=args.experiment.task.pretraining_batch_size,
+                                custom_seed=task * 100000 + args.experiment.seed + 1
+                            )
+                            datacomp_loader = cycle(datacomp_loader)
+                        else:
+                            termcolor.cprint(
+                                f"Warning: no DataComp tar files found in {datacomp_root}. Skipping pretraining data.",
+                                "yellow"
+                            )
+                    else:
+                        termcolor.cprint(
+                            "Warning: pretraining batch size > 0 but no pretraining data path is set. Skipping pretraining data.",
+                            "yellow"
+                        )
                 
         # Get task-specific dataloaders.
         utils.conf.set_random_seed(task * 100000, set_backend=args.log.full_replication)
         task_dataloaders = experiment.give_task_dataloaders()
         train_loader = task_dataloaders['train']
         buffer_loader = task_dataloaders['buffer']
+
+        # Collect statistics about the current task data composition
+        task_stats = {
+            'task': task,
+            'num_new_data_samples': experiment.task_num_samples_train,
+            'num_buffer_samples': experiment.task_num_samples_buffer,
+        }
+        if experiment.task_num_samples_buffer > 0:
+            ratio = experiment.task_num_samples_train / experiment.task_num_samples_buffer
+            task_stats['new_to_buffer_ratio'] = ratio
+        else:
+            task_stats['new_to_buffer_ratio'] = None
 
         num_datasets = sum([experiment.all_train_idcs[dataset_name][task] is not None for dataset_name in experiment.dataset_names])
         termcolor.cprint(
@@ -229,6 +302,7 @@ def train(
         # If we bound the number of iterations (converted from number of samples seen) instead of the number of epochs,
         # we dynamically assign the number of epochs for each task.
         num_train_samples = args.experiment.task.n_samples
+        task_stats['data_limit'] = num_train_samples
 
         train_iterations = num_train_samples // args.experiment.task.batch_size
         warmup_iterations = (
@@ -280,6 +354,8 @@ def train(
         utils.conf.set_random_seed(task * 100000, set_backend=args.log.full_replication)
 
         training_step_data = []
+        seen_new_samples = 0
+        seen_buffer_samples = 0
         with tqdm.tqdm(
             total=num_train_samples, position=0, desc="Training...", leave=True
         ) as pbar:
@@ -291,15 +367,22 @@ def train(
             datacomp_iterator = datacomp_loader or [None] * len(train_loader)
             buffer_iterator = buffer_loader or [None] * len(train_loader)
             for batch_index, (data, buffer_batch, datacomp_batch) in enumerate(zip(train_loader, buffer_iterator, datacomp_iterator)):
-                batch_size = len(data['targets']) if args.experiment.task.data_mixture['update'] != 0 else 0
+                # batch_size = len(data['targets']) if args.experiment.task.data_mixture['update'] != 0 else 0
 
-                # if buffer_batch exists, couple it with base batch for training.
-                if buffer_batch is not None:
-                    batch_size += buffer_batch['images'].shape[0]
+                # # if buffer_batch exists, couple it with base batch for training.
+                # if buffer_batch is not None:
+                #     batch_size += buffer_batch['images'].shape[0]
 
-                # if datacomp_batch exists, couple both batches together for training
-                if datacomp_batch is not None:
-                    batch_size += datacomp_batch[0].shape[0]
+                # # if datacomp_batch exists, couple both batches together for training
+                # if datacomp_batch is not None:
+                #     batch_size += datacomp_batch[0].shape[0]
+
+                update_size = len(data['targets']) if args.experiment.task.data_mixture['update'] != 0 else 0
+                buffer_size = buffer_batch['images'].shape[0] if buffer_batch is not None else 0
+                datacomp_size = datacomp_batch[0].shape[0] if datacomp_batch is not None else 0
+                batch_size = update_size + buffer_size + datacomp_size
+                seen_new_samples += update_size + datacomp_size
+                seen_buffer_samples += buffer_size
                 
                 #### Uncomment for printing training throughput
                 # tt = time.time() - st
@@ -501,6 +584,39 @@ def train(
                     )
                 )
                 
+        # Save statistics for current task
+        task_stats['seen_new_samples'] = seen_new_samples
+        task_stats['seen_buffer_samples'] = seen_buffer_samples
+        task_stats['total_seen_samples'] = seen_new_samples + seen_buffer_samples
+        training_stats.append(task_stats)
+
+        # Compute CLIP scores for this task if filtering is enabled
+        clip_ratio = args.experiment.buffer.clip_filter_ratio
+        clip_mode = getattr(args.experiment.buffer, 'clip_filter_mode', 'random')
+        if clip_mode != 'random': # clip_ratio < 1 and 
+            if clip_mode == 'updated':
+                b_model = continual_learner.backbone.module
+                t_encoder = continual_learner.head.module.text_encoder
+                tokenizer = continual_learner.head.module.tokenizer
+            else:
+                b_model = initial_backbone
+                t_encoder = initial_text_encoder
+                tokenizer = initial_tokenizer
+            experiment.register_clip_scores_for_task(task, b_model, t_encoder, tokenizer)
+
+            # Compute statistics and log CLIP scores
+            clip_means = {}
+            for ds in experiment.dataset_names:
+                idcs = experiment.all_train_idcs[ds][task]
+                if idcs is None or len(idcs) == 0:
+                    continue
+                scores = experiment.clip_scores[ds][idcs]
+                valid = ~np.isnan(scores)
+                if np.any(valid):
+                    clip_means[ds] = float(np.mean(scores[valid]))
+            task_stats['clip_score_means'] = clip_means
+            experiment.dump_clip_scores_for_task(task, evaluator.log_folder)
+        
         # Update task information in experiment.
         experiment.finish_task()
 
@@ -528,3 +644,10 @@ def train(
         # Upload to W&B.
         wandb.log(final_log_dict)
     print('Completed in {0:4.2f}s'.format(time.time() - final_zero_start_time))
+
+    # Store training statistics
+    stats_file = os.path.join(evaluator.log_folder, 'training_stats.json')
+    json.dump(training_stats, open(stats_file, 'w'), indent=4)
+    termcolor.cprint(f"Training statistics written to {stats_file}", "cyan")
+    for stats in training_stats:
+        termcolor.cprint(json.dumps(stats, indent=2), "cyan")
