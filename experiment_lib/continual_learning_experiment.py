@@ -1,5 +1,7 @@
 import copy
 import datetime
+import json
+import os
 from typing import Union, List, Dict
 
 import numpy as np
@@ -7,6 +9,8 @@ import omegaconf
 import termcolor
 import torch
 import tqdm
+import torchvision
+from data_lib import create_transforms_list
 
 class DataSubset(torch.utils.data.Dataset):
     def __init__(
@@ -218,6 +222,15 @@ class PredefinedSequenceExperiment(BaseExperiment):
             self.test_datasets[dataset_name] = test_datasets[i]
         
         self.get_all_subsampling_info()
+
+        # Prepare storage for CLIP similarity scores used for buffer filtering
+        # self.clip_scores = {
+        #     name: np.full(len(train_datasets[i]), np.nan)
+        #     for i, name in enumerate(dataset_names)
+        # }
+        self.clip_scores = {
+            name: {} for name in dataset_names
+        }
         
         exp_time = (
             str(datetime.datetime.now())
@@ -334,7 +347,13 @@ class PredefinedSequenceExperiment(BaseExperiment):
                     if buffer_sub_idcs is not None:
                         buffer_sub_ds = np.repeat(dataset_name, len(buffer_sub_idcs))
                         buffer_idcs.extend(list(buffer_sub_idcs))
-                        buffer_ds.extend(list(buffer_sub_ds))                    
+                        buffer_ds.extend(list(buffer_sub_ds))    
+
+            ratio = self.args.experiment.buffer.clip_filter_ratio
+            mode = getattr(self.args.experiment.buffer, 'clip_filter_mode', 'random')
+            if mode != 'random' and ratio < 1:
+                buffer_idcs, buffer_ds = self.filter_buffer_by_clip(buffer_idcs, buffer_ds, ratio)
+
             task_train_buffer_dataset = AggregateDataSubset(
                 self.train_datasets, buffer_idcs, buffer_ds, None)
                     
@@ -466,6 +485,72 @@ class PredefinedSequenceExperiment(BaseExperiment):
         print(summary_str)
         print("----")
         print(f"Total stats: {total_num_classes} classes & {total_num_samples} samples.")
+    
+    def _compute_clip_scores(self, dataset_name, indices, backbone, text_encoder, tokenizer, device, batch_size=512):
+        dset = self.train_datasets[dataset_name]
+        tfs, _, _ = create_transforms_list([
+            "Resize",
+            "CenterCrop",
+            "ToTensor",
+            "Normalize",
+        ], dset.PARAMS)
+        transform = torchvision.transforms.Compose(tfs)
+        scores = self.clip_scores[dataset_name]
+        for start in range(0, len(indices), batch_size):
+            batch_idx = indices[start:start + batch_size]
+            images, texts = [], []
+            for idx in batch_idx:
+                img = dset._load_image(dset.data[idx])
+                images.append(transform(img))
+                if dset.caption_data is None:
+                    txt = dset.PARAMS["classes"][dset.targets[idx]]
+                else:
+                    txt = dset.caption_data[idx]
+                    if isinstance(txt, list):
+                        txt = txt[0]
+                texts.append(txt)
+            images = torch.stack(images).to(device)
+            text_tokens = tokenizer(texts).to(device)
+            with torch.no_grad(), torch.cuda.amp.autocast():
+                img_feat = torch.nn.functional.normalize(backbone(images), dim=-1)
+                txt_feat = torch.nn.functional.normalize(text_encoder.encode_text(text_tokens), dim=-1)
+                sims = (img_feat * txt_feat).sum(dim=1).cpu().numpy()
+            # for i, idx in enumerate(batch_idx):
+            #     scores[idx] = sims[i]
+            for i, idx in enumerate(batch_idx):
+                img_path = dset.data[idx]
+                scores[idx] = {
+                    "score": float(sims[i]),
+                    "path": img_path,
+                    "text": texts[i],
+                }
+
+    def register_clip_scores_for_task(self, task, backbone, text_encoder, tokenizer, device=None, batch_size=64):
+        if device is None:
+            device = self.device
+        for dataset_name in self.dataset_names:
+            idcs = self.all_train_idcs[dataset_name][task]
+            if idcs is None:
+                continue
+            need = [i for i in idcs if np.isnan(self.clip_scores[dataset_name][i])]
+            if len(need):
+                self._compute_clip_scores(dataset_name, need, backbone, text_encoder, tokenizer, device, batch_size)
+
+    def filter_buffer_by_clip(self, buffer_idcs, buffer_ds, ratio):
+        if ratio >= 1:
+            return buffer_idcs, buffer_ds
+        new_idcs, new_ds = [], []
+        by_dataset = {}
+        for idx, ds in zip(buffer_idcs, buffer_ds):
+            by_dataset.setdefault(ds, []).append(idx)
+        for ds, idcs in by_dataset.items():
+            scores = self.clip_scores[ds][idcs]
+            keep = max(1, int(len(idcs) * ratio))
+            order = np.argsort(scores)[-keep:]
+            selected = [idcs[i] for i in order]
+            new_idcs.extend(selected)
+            new_ds.extend([ds] * len(selected))
+        return new_idcs, new_ds
         
     @property
     def checkpoint(self):
@@ -474,12 +559,38 @@ class PredefinedSequenceExperiment(BaseExperiment):
     def load_from_checkpoint(self, state_dict):
         self.task = state_dict["task"]
         self.name = state_dict["name"]
-        
-        
-        
-        
+    
+    def dump_clip_scores_for_task(self, task, log_folder):
+        """Write CLIP similarity scores for the given task to JSON.
 
-
-
-
-
+        Args:
+            task (int): Task index starting at 0.
+            log_folder (str): Folder to store the json file in.
+        """
+        out = {}
+        for dataset_name in self.dataset_names:
+            idcs = self.all_train_idcs[dataset_name][task]
+            if idcs is None or len(idcs) == 0:
+                continue
+            # scores = self.clip_scores[dataset_name][idcs]
+            # out[dataset_name] = {
+            #     int(idx): float(score)
+            #     for idx, score in zip(idcs, scores)
+            # }
+            scores = self.clip_scores[dataset_name]
+            out[dataset_name] = {
+                int(idx): {
+                    "score": float(scores[idx]["score"]),
+                    "path": scores[idx]["path"],
+                    "text": scores[idx]["text"],
+                }
+                for idx in idcs
+                if idx in scores
+            }
+        os.makedirs(log_folder, exist_ok=True)
+        file_path = os.path.join(log_folder, f"clip_scores_task_{task+1}.json")
+        with open(file_path, "w") as f:
+            json.dump(out, f, indent=4)
+        termcolor.cprint(
+            f"Stored CLIP scores for task {task+1} at {file_path}", "cyan"
+        )
