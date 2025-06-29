@@ -487,41 +487,27 @@ class PredefinedSequenceExperiment(BaseExperiment):
         print(f"Total stats: {total_num_classes} classes & {total_num_samples} samples.")
     
     def _compute_clip_scores(self, dataset_name, indices, backbone, text_encoder, tokenizer, device, batch_size=512):
+        """Compute and store CLIP similarity scores for the given sample indices."""
         dset = self.train_datasets[dataset_name]
-        tfs, _, _ = create_transforms_list([
-            "Resize",
-            "CenterCrop",
-            "ToTensor",
-            "Normalize",
-        ], dset.PARAMS)
-        transform = torchvision.transforms.Compose(tfs)
+
+        subset = DataSubset(dset, np.array(indices), is_mask=False)
+        loader = self.make_dataloader(subset, train=False, custom_batch_size=batch_size)
+
         scores = self.clip_scores[dataset_name]
-        for start in range(0, len(indices), batch_size):
-            batch_idx = indices[start:start + batch_size]
-            images, texts = [], []
-            for idx in batch_idx:
-                img = dset._load_image(dset.data[idx])
-                images.append(transform(img))
-                if dset.caption_data is None:
-                    txt = dset.PARAMS["classes"][dset.targets[idx]]
-                else:
-                    txt = dset.caption_data[idx]
-                    if isinstance(txt, list):
-                        txt = txt[0]
-                texts.append(txt)
-            images = torch.stack(images).to(device)
+
+        for batch in loader:
+            images = batch["images"].to(device)
+            texts = batch["texts"]
             text_tokens = tokenizer(texts).to(device)
             with torch.no_grad(), torch.cuda.amp.autocast():
                 img_feat = torch.nn.functional.normalize(backbone(images), dim=-1)
                 txt_feat = torch.nn.functional.normalize(text_encoder.encode_text(text_tokens), dim=-1)
                 sims = (img_feat * txt_feat).sum(dim=1).cpu().numpy()
-            # for i, idx in enumerate(batch_idx):
-            #     scores[idx] = sims[i]
-            for i, idx in enumerate(batch_idx):
-                img_path = dset.data[idx]
-                scores[idx] = {
+
+            for i, idx in enumerate(batch["indices"]):
+                scores[int(idx)] = {
                     "score": float(sims[i]),
-                    "path": img_path,
+                    "path": batch["image_path"][i],
                     "text": texts[i],
                 }
 
@@ -532,9 +518,27 @@ class PredefinedSequenceExperiment(BaseExperiment):
             idcs = self.all_train_idcs[dataset_name][task]
             if idcs is None:
                 continue
-            need = [i for i in idcs if np.isnan(self.clip_scores[dataset_name][i])]
+            # Only compute CLIP scores for samples that do not yet have one
+            need = [i for i in idcs if i not in self.clip_scores[dataset_name]]
             if len(need):
                 self._compute_clip_scores(dataset_name, need, backbone, text_encoder, tokenizer, device, batch_size)
+
+    def register_clip_scores_for_buffer(self, backbone, text_encoder, tokenizer, device=None, batch_size=64):
+        """Recompute CLIP scores for samples currently in the replay buffer."""
+        if device is None:
+            device = self.device
+        if self.current_task_buffer_dataset is None:
+            return
+
+        by_dataset: Dict[str, List[int]] = {}
+        for idx, ds in zip(
+            self.current_task_buffer_dataset.subset_idcs,
+            self.current_task_buffer_dataset.ds_for_subset_idcs,
+        ):
+            by_dataset.setdefault(ds, []).append(idx)
+
+        for ds, idcs in by_dataset.items():
+            self._compute_clip_scores(ds, idcs, backbone, text_encoder, tokenizer, device, batch_size)
 
     def filter_buffer_by_clip(self, buffer_idcs, buffer_ds, ratio):
         if ratio >= 1:
@@ -544,7 +548,9 @@ class PredefinedSequenceExperiment(BaseExperiment):
         for idx, ds in zip(buffer_idcs, buffer_ds):
             by_dataset.setdefault(ds, []).append(idx)
         for ds, idcs in by_dataset.items():
-            scores = self.clip_scores[ds][idcs]
+            scores = np.array([
+                self.clip_scores[ds][idx]["score"] for idx in idcs
+            ])
             keep = max(1, int(len(idcs) * ratio))
             order = np.argsort(scores)[-keep:]
             selected = [idcs[i] for i in order]

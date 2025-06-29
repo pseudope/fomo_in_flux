@@ -131,6 +131,9 @@ experiment:
     batch_size: -1
     # In case images are available, these will be re-augmented whenever sampled.
     with_transform: False
+    # When clip_filter_mode="updated", also recompute scores for the buffer data
+    # using the updated model to keep ranks fresh.
+    update_buffer_scores: False
 
   ### Task-specific Parameters.
   task:
