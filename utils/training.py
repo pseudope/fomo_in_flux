@@ -612,6 +612,7 @@ def train(
                 idcs = experiment.all_train_idcs[ds][task]
                 if idcs is None or len(idcs) == 0:
                     continue
+
                 score_values = [
                     experiment.clip_scores[ds][idx]["score"]
                     for idx in idcs
@@ -619,6 +620,7 @@ def train(
                 ]
                 if score_values:
                     clip_means[ds] = float(np.mean(np.array(score_values, dtype=float)))
+
             task_stats['clip_score_means'] = clip_means
             experiment.dump_clip_scores_for_task(task, evaluator.log_folder)
         
