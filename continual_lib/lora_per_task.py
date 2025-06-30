@@ -149,9 +149,13 @@ class Model(continual_lib.BaseContinualLearner):
         if not self.freeze_head and head_adapter_blocks is None:
             self.to_optimize.append({"params": self.head.parameters()})
 
-        if hasattr(self.head.module, "text_encoder") and hasattr(self.head.module.text_encoder, "logit_scale"):
-            if any(p.requires_grad for p in self.head.module.text_encoder.logit_scale.parameters()):
-                self.to_optimize.append({"params": self.head.module.text_encoder.logit_scale})
+        if (
+            hasattr(self.head.module, "text_encoder")
+            and hasattr(self.head.module.text_encoder, "logit_scale")
+        ):
+            logit_scale = self.head.module.text_encoder.logit_scale
+            if isinstance(logit_scale, torch.nn.Parameter) and logit_scale.requires_grad:
+                self.to_optimize.append({"params": logit_scale})
 
     def _detach_adapters(self):
         for adapter in self.adapter_dict.values():
