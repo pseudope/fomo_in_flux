@@ -48,6 +48,7 @@ class Model(continual_lib.BaseContinualLearner):
         self.stored_adapters = []
         self.adapter_dict = {}
         self.to_optimize = []
+        self.forward_cache = {}
 
         self._attach_adapters()
 
@@ -55,6 +56,7 @@ class Model(continual_lib.BaseContinualLearner):
     def _attach_adapters(self):
         self.adapter_dict = {}
         self.to_optimize = []
+        self.forward_cache = {}
 
         backbone_adapter_blocks = None
         if not self.freeze_features:
@@ -100,6 +102,7 @@ class Model(continual_lib.BaseContinualLearner):
                         *weight.shape[:3],
                         name=mod_layer,
                     )
+                    self.forward_cache[mod_layer] = mod.forward
                     mod.forward = self.adapter_dict[mod_layer].forward
                     self.to_optimize.extend(self.adapter_dict[mod_layer].to_optimize)
 
@@ -112,6 +115,7 @@ class Model(continual_lib.BaseContinualLearner):
                         mod.in_features,
                         name=mod_layer,
                     )
+                    self.forward_cache[mod_layer] = mod.forward
                     mod.forward = self.adapter_dict[mod_layer].forward
                     self.to_optimize.extend(self.adapter_dict[mod_layer].to_optimize)
 
@@ -129,6 +133,7 @@ class Model(continual_lib.BaseContinualLearner):
                         name=mod_layer,
                         kv_only=self.kv_only,
                     )
+                    self.forward_cache[mod_layer] = mod.forward
                     mod.forward = self.adapter_dict[mod_layer].forward
                     self.to_optimize.extend(self.adapter_dict[mod_layer].to_optimize)
 
@@ -143,6 +148,7 @@ class Model(continual_lib.BaseContinualLearner):
                         name=mod_layer,
                         kv_only=self.kv_only,
                     )
+                    self.forward_cache[mod_layer] = mod.forward
                     mod.forward = self.adapter_dict[mod_layer].forward
                     self.to_optimize.extend(self.adapter_dict[mod_layer].to_optimize)
 
@@ -158,11 +164,15 @@ class Model(continual_lib.BaseContinualLearner):
                 self.to_optimize.append({"params": logit_scale})
 
     def _detach_adapters(self):
-        for adapter in self.adapter_dict.values():
+        for name, adapter in self.adapter_dict.items():
             mod = adapter.base_module
-            mod.forward = mod.__class__.forward
+            if name in self.forward_cache:
+                mod.forward = self.forward_cache[name]
+            else:
+                mod.forward = mod.__class__.forward
         self.adapter_dict = {}
         self.to_optimize = []
+        self.forward_cache = {}
 
     # ------------------------------------------------------------------
     def prepare_for_training(self, experiment=None, **kwargs):
