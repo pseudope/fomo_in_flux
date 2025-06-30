@@ -161,6 +161,11 @@ class Model(continual_lib.BaseContinualLearner):
     # ------------------------------------------------------------------
     def prepare_for_training(self, experiment=None, **kwargs):
         super().prepare_for_training(experiment, **kwargs)
+        self._detach_adapters()
+        self._attach_adapters()
+
+    def prepare_for_evaluation(self, experiment=None, eval_params=None, **kwargs):
+        super().prepare_for_evaluation(experiment, eval_params, **kwargs)
         self.attach_average_adapter()
 
     def end_task(self, experiment=None, **kwargs):
