@@ -1,0 +1,80 @@
+# @package _global_
+experiment:
+  type: 'class_incremental'
+
+  # Turn on open vocabulary classification style.
+  training: 'contrastive'
+
+  backbone:
+    name: openclip_vit_b32
+    cache_dir: './cache'
+    head: default
+    pretrained: True
+    freeze_head: False
+    freeze_features: False
+    half_precision: True
+
+  dataset:
+    sequence: 'stream_construction/debug_seq_small.json'
+    path: './data'
+    pretraining_data_path: './data/laion400m/shards'
+    preload: False
+    create_resized_variant_if_possible: True
+    num_workers: 8
+    resize: 224
+    img_size: 224
+    train_transforms: [
+      'RandomResizedCrop', 'ToTensor', 'Normalize'
+    ]
+    test_transforms: [
+      'Resize','CenterCrop','ToTensor','Normalize'
+    ]
+
+  evaluation:
+    batch_size: 512
+    additional_datasets: [
+      'cifar10',
+    ]
+    validate_on_subset: 0.1
+
+  buffer:
+    size: 500
+
+  task:
+    num: 4
+    n_samples: 10000
+    batch_size: 512
+    eval_every_n_samples: 10000
+    data_mixture:
+      pretraining: 0.33
+      update: 0.34
+      buffer: 0.33
+      # pretraining: 0.0
+      # update: 1.0
+      # buffer: 0.0
+
+  optimizer:
+    name: 'adamw'
+    lr: 0.00001
+    scaled_learning_rate: False
+    loss: clip
+    label_smoothing: 0
+    weight_decay: 0.2
+    clip_grad_norm: 1
+    clip_temperature: 'learnable'
+
+  scheduler:
+    name: 'cosine_with_linear_warmup'
+    cosine_lr_mul: 0.001
+    warmup_perc: 0.1
+
+log:
+  group: fif_debug
+  project: simple_fif_debug_run
+  checkpoint: False
+  use: False
+
+continual:
+  method: lora_per_task
+  lora_per_task:
+    max_logits_inference: False
