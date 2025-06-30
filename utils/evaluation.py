@@ -316,6 +316,25 @@ class Evaluator:
                             test_loader.dataset.PARAMS['classes']
                             if not is_retrieval_exp else test_loader.dataset.caption_data
                         )
+
+                        if is_retrieval_exp:
+                            captions = texts
+                            if isinstance(captions, dict):
+                                exp_data = test_loader.dataset.data
+                                root_remove_1 = '/'.join(test_loader.dataset.root.split('/')[:-1]) + '/'
+                                root_remove_2 = root_remove_1[2:]
+                                exp_data = [x.replace(root_remove_1, '').replace(root_remove_2, '') for x in exp_data]
+
+                                if isinstance(exp_data, list) and isinstance(exp_data[0], str):
+                                    captions = [test_loader.dataset.caption_data[d] for d in exp_data]
+                                else:
+                                    captions = [test_loader.dataset.caption_data[i] for i in range(len(exp_data))]
+
+                            if isinstance(captions[0], list):
+                                captions = [x for y in captions for x in y]
+
+                            texts = captions
+
                         logits = continual_learner.max_logits_over_stored_adapters(
                             images=data['images'], texts=texts
                         ).detach()
