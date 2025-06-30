@@ -306,10 +306,45 @@ class Evaluator:
                         assert_str = 'Caption embeddings for retrieval benchmarks need to be precomputed!'
                         assert dataset_name in custom_heads, assert_str
 
-                    features = continual_learner(**data, image_features_only=True)
-                    if is_retrieval_exp:
-                        features = features / features.norm(dim=-1).reshape(-1, 1)
-                    logits = features @ custom_heads[dataset_name].T
+                    use_max = (
+                        hasattr(continual_learner, 'max_logits_over_stored_adapters') and
+                        getattr(continual_learner, 'max_logits_inference', False)
+                    )
+
+                    if use_max:
+                        def _prep_texts(loader):
+                            """Return a flat list of texts compatible with the tokenizer."""
+                            if loader.dataset.PARAMS['type'] != 'retrieval':
+                                return loader.dataset.PARAMS['classes']
+                            caps = loader.dataset.caption_data
+                            assert isinstance(caps, (list, dict)), (
+                                f'Captions have to be provided as either list or dict, currently: {type(caps)}!'
+                            )
+                            if isinstance(caps, dict):
+                                exp_data = loader.dataset.data
+                                root_remove_1 = '/'.join(loader.dataset.root.split('/')[:-1]) + '/'
+                                root_remove_2 = root_remove_1[2:]
+                                exp_data = [
+                                    x.replace(root_remove_1, '').replace(root_remove_2, '')
+                                    for x in exp_data
+                                ]
+                                if isinstance(exp_data, list) and isinstance(exp_data[0], str):
+                                    caps = [loader.dataset.caption_data[d] for d in exp_data]
+                                else:
+                                    caps = [loader.dataset.caption_data[i] for i in range(len(exp_data))]
+                            if isinstance(caps[0], list):
+                                caps = [x for y in caps for x in y]
+                            return caps
+
+                        texts = _prep_texts(test_loader)
+                        logits = continual_learner.max_logits_over_stored_adapters(
+                            images=data['images'], texts=texts
+                        ).detach()
+                    else:
+                        features = continual_learner(**data, image_features_only=True)
+                        if is_retrieval_exp:
+                            features = features / features.norm(dim=-1).reshape(-1, 1)
+                        logits = features @ custom_heads[dataset_name].T
 
                     predictions[count:count + batch_size] = logits.data.detach().cpu().numpy()
                     targets[count:count + batch_size] = data['targets'].detach().cpu().numpy()

@@ -310,10 +310,16 @@ class DoRA_Linear(torch.nn.Module):
         torch.nn.init.zeros_(self.dora_B)
 
     def forward(self, *input, **kwargs):
+        # Support open_clip calling convention using q_x/k_x/v_x keywords.
+        if "q_x" in kwargs:
+            query = kwargs.pop("q_x")
+            key = kwargs.pop("k_x", query)
+            value = kwargs.pop("v_x", key)
+            input = (query, key, value) + input
 
         ### Fix for multi-gpu setup:
         ### since the base-modules are cloned
-        ### from the graph, they are not 
+        ### from the graph, they are not
         ### automatically moved to the right
         ### device --> we do this manually
 

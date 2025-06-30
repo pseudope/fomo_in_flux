@@ -131,6 +131,9 @@ experiment:
     batch_size: -1
     # In case images are available, these will be re-augmented whenever sampled.
     with_transform: False
+    # When clip_filter_mode="updated", also recompute scores for the buffer data
+    # using the updated model to keep ranks fresh.
+    update_buffer_scores: False
 
   ### Task-specific Parameters.
   task:
@@ -681,6 +684,17 @@ continual:
     head_block_idcs: []
     kv_only: False
     tune_logit_scale: False
+  # [LORA_PER_TASK] LoRA reinitialized for every task with optional ensemble evaluation
+  lora_per_task:
+    rank: 5
+    scale: 1
+    backbone_block_idcs: []
+    head_block_idcs: []
+    kv_only: False
+    tune_logit_scale: False
+    # If True, evaluation will use the maximum logits over all stored adapters
+    # instead of a single averaged adapter
+    max_logits_inference: False
   # [Parameter Selection] Bitfit and LNFit
   bitfit:
     bias_select: all
