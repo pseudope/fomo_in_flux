@@ -523,6 +523,23 @@ class PredefinedSequenceExperiment(BaseExperiment):
             if len(need):
                 self._compute_clip_scores(dataset_name, need, backbone, text_encoder, tokenizer, device, batch_size)
 
+    def register_clip_scores_for_buffer(self, backbone, text_encoder, tokenizer, device=None, batch_size=64):
+        """Recompute CLIP scores for samples currently in the replay buffer."""
+        if device is None:
+            device = self.device
+        if self.current_task_buffer_dataset is None:
+            return
+
+        by_dataset: Dict[str, List[int]] = {}
+        for idx, ds in zip(
+            self.current_task_buffer_dataset.subset_idcs,
+            self.current_task_buffer_dataset.ds_for_subset_idcs,
+        ):
+            by_dataset.setdefault(ds, []).append(idx)
+
+        for ds, idcs in by_dataset.items():
+            self._compute_clip_scores(ds, idcs, backbone, text_encoder, tokenizer, device, batch_size)
+
     def filter_buffer_by_clip(self, buffer_idcs, buffer_ds, ratio):
         if ratio >= 1:
             return buffer_idcs, buffer_ds

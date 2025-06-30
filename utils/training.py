@@ -603,6 +603,8 @@ def train(
                 t_encoder = initial_text_encoder
                 tokenizer = initial_tokenizer
             experiment.register_clip_scores_for_task(task, b_model, t_encoder, tokenizer)
+            if clip_mode == 'updated' and args.experiment.buffer.get('update_buffer_scores', False):
+                experiment.register_clip_scores_for_buffer(b_model, t_encoder, tokenizer)
 
             # Compute statistics and log CLIP scores
             clip_means = {}
@@ -610,13 +612,15 @@ def train(
                 idcs = experiment.all_train_idcs[ds][task]
                 if idcs is None or len(idcs) == 0:
                     continue
-                scores = [
+
+                score_values = [
                     experiment.clip_scores[ds][idx]["score"]
                     for idx in idcs
                     if idx in experiment.clip_scores[ds]
                 ]
-                if len(scores) > 0:
-                    clip_means[ds] = float(np.mean(scores))
+                if score_values:
+                    clip_means[ds] = float(np.mean(np.array(score_values, dtype=float)))
+
             task_stats['clip_score_means'] = clip_means
             experiment.dump_clip_scores_for_task(task, evaluator.log_folder)
         

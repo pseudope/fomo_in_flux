@@ -286,15 +286,21 @@ class LoRA_Linear(torch.nn.Module):
         torch.nn.init.zeros_(self.lora_B)
 
     def forward(self, *input, **kwargs):
+        # Support open_clip calling convention using q_x/k_x/v_x keywords.
+        if "q_x" in kwargs:
+            query = kwargs.pop("q_x")
+            key = kwargs.pop("k_x", query)
+            value = kwargs.pop("v_x", key)
+            input = (query, key, value) + input
 
         ### Fix for multi-gpu setup:
         ### since the base-modules are cloned
-        ### from the graph, they are not 
+        ### from the graph, they are not
         ### automatically moved to the right
         ### device --> we do this manually
 
         # Identify the device of the input tensor
-        device = input[0].device        
+        device = input[0].device
 
         # Move the adapter weights and base module weights to the input device
         lora_A = self.lora_A.to(device)
