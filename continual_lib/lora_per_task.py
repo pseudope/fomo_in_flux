@@ -227,6 +227,8 @@ class Model(continual_lib.BaseContinualLearner):
     def attach_average_adapter(self):
         """Attach new adapters initialized with the average of stored adapters."""
         avg_state = self._average_adapter_state()
+        # ensure a clean state in case adapters remain from a previous step
+        self._detach_adapters()
         self._attach_adapters()
         if avg_state:
             for name, sd in avg_state.items():
@@ -236,6 +238,8 @@ class Model(continual_lib.BaseContinualLearner):
 
     def max_logits_over_stored_adapters(self, images, **kwargs):
         """Return logits by selecting the maximum over all stored adapters."""
+        # ensure we do not reattach adapters on top of already attached ones
+        self._detach_adapters()
         if not self.stored_adapters:
             with torch.no_grad(), torch.cuda.amp.autocast():
                 return super().forward(images=images.cuda(), **kwargs)["logits"]
