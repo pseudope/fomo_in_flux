@@ -306,10 +306,24 @@ class Evaluator:
                         assert_str = 'Caption embeddings for retrieval benchmarks need to be precomputed!'
                         assert dataset_name in custom_heads, assert_str
 
-                    features = continual_learner(**data, image_features_only=True)
-                    if is_retrieval_exp:
-                        features = features / features.norm(dim=-1).reshape(-1, 1)
-                    logits = features @ custom_heads[dataset_name].T
+                    use_max = (
+                        hasattr(continual_learner, 'max_logits_over_stored_adapters') and
+                        getattr(continual_learner, 'max_logits_inference', False)
+                    )
+
+                    if use_max:
+                        texts = (
+                            test_loader.dataset.PARAMS['classes']
+                            if not is_retrieval_exp else test_loader.dataset.caption_data
+                        )
+                        logits = continual_learner.max_logits_over_stored_adapters(
+                            images=data['images'], texts=texts
+                        ).detach()
+                    else:
+                        features = continual_learner(**data, image_features_only=True)
+                        if is_retrieval_exp:
+                            features = features / features.norm(dim=-1).reshape(-1, 1)
+                        logits = features @ custom_heads[dataset_name].T
 
                     predictions[count:count + batch_size] = logits.data.detach().cpu().numpy()
                     targets[count:count + batch_size] = data['targets'].detach().cpu().numpy()

@@ -684,6 +684,17 @@ continual:
     head_block_idcs: []
     kv_only: False
     tune_logit_scale: False
+  # [LORA_PER_TASK] LoRA reinitialized for every task with optional ensemble evaluation
+  lora_per_task:
+    rank: 5
+    scale: 1
+    backbone_block_idcs: []
+    head_block_idcs: []
+    kv_only: False
+    tune_logit_scale: False
+    # If True, evaluation will use the maximum logits over all stored adapters
+    # instead of a single averaged adapter
+    max_logits_inference: False
   # [Parameter Selection] Bitfit and LNFit
   bitfit:
     bias_select: all

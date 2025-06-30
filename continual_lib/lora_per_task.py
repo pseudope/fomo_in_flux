@@ -25,6 +25,7 @@ class Model(continual_lib.BaseContinualLearner):
         head_block_idcs: List[int] = [0, 1, 2, 3, 4, 5],
         kv_only: bool = True,
         tune_logit_scale: bool = False,
+        max_logits_inference: bool = False,
         **kwargs,
     ):
         super().__init__(args, backbone, head, loss, device)
@@ -34,6 +35,7 @@ class Model(continual_lib.BaseContinualLearner):
         self.backbone_block_idcs = backbone_block_idcs
         self.head_block_idcs = head_block_idcs
         self.kv_only = kv_only
+        self.max_logits_inference = max_logits_inference
 
         for _, w in self.backbone.named_parameters():
             w.requires_grad = False
@@ -222,7 +224,7 @@ class Model(continual_lib.BaseContinualLearner):
         """Return logits by selecting the maximum over all stored adapters."""
         if not self.stored_adapters:
             with torch.no_grad(), torch.cuda.amp.autocast():
-                return self.forward(images=images.cuda(), **kwargs)["logits"]
+                return super().forward(images=images.cuda(), **kwargs)["logits"]
         logits_list = []
         for adapter_state in self.stored_adapters:
             self._attach_adapters()
@@ -230,11 +232,24 @@ class Model(continual_lib.BaseContinualLearner):
                 if name in self.adapter_dict:
                     self.adapter_dict[name].load_state_dict(sd)
             with torch.no_grad(), torch.cuda.amp.autocast():
-                logits = self.forward(images=images.cuda(), **kwargs)["logits"]
+                logits = super().forward(images=images.cuda(), **kwargs)["logits"]
             logits_list.append(logits)
             self._detach_adapters()
         stacked = torch.stack(logits_list, dim=0)
         return stacked.max(dim=0).values
+
+    # ------------------------------------------------------------------
+    def forward(self, *args, **kwargs):
+        """Override forward to optionally use max-logits inference during evaluation."""
+        if (
+            not self.training
+            and getattr(self, "max_logits_inference", False)
+            and len(self.stored_adapters) > 0
+            and not kwargs.get("image_features_only", False)
+        ):
+            images = args[0] if args else kwargs.get("images")
+            return {"logits": self.max_logits_over_stored_adapters(images, **kwargs)}
+        return super().forward(*args, **kwargs)
 
 
 class LoRA_Conv2d(torch.nn.Module):
