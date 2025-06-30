@@ -377,6 +377,12 @@ class LoRA_MHA(torch.nn.Module):
             torch.nn.init.zeros_(self.lora_B[i])
 
     def forward(self, *input, **kwargs):
+        # Support open_clip calling convention using q_x/k_x/v_x keywords.
+        if "q_x" in kwargs:
+            query = kwargs.pop("q_x")
+            key = kwargs.pop("k_x", query)
+            value = kwargs.pop("v_x", key)
+            input = (query, key, value) + input
         device = input[0].device
         lora_A = [param.to(device) for param in self.lora_A]
         lora_B = [param.to(device) for param in self.lora_B]
